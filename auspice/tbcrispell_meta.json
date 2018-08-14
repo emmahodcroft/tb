@@ -1,0 +1,1195 @@
+{
+  "title": "Multi-Host TB in New Zealand",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "Pyrazinamide": {
+      "menuItem": "Pyrazinamide",
+      "legendTitle": "Pyrazinamide Resistance",
+      "type": "discrete",
+      "key": "Pyrazinamide"
+    },
+    "location": {
+      "type": "discrete",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "key": "location"
+    },
+    "host": {
+      "legendTitle": "host",
+      "menuItem": "host",
+      "key": "host",
+      "color_map": [
+        [
+          "bovine",
+          "#e6194b"
+        ],
+        [
+          "possum",
+          "#3cb44b"
+        ],
+        [
+          "ferret",
+          "#ffe119"
+        ],
+        [
+          "porcine",
+          "#0082c8"
+        ],
+        [
+          "cervine",
+          "#911eb4"
+        ],
+        [
+          "stoat",
+          "#f58231"
+        ]
+      ]
+    },
+    "host_cat": {
+      "menuItem": "Host category",
+      "legendTitle": "Host category",
+      "type": "discrete",
+      "key": "host_cat",
+      "color_map": [
+        [
+          "domestic",
+          "#e6194b"
+        ],
+        [
+          "wildlife",
+          "#3cb44b"
+        ]
+      ]
+    },
+    "clade": {
+      "legendTitle": "clade",
+      "menuItem": "clade",
+      "key": "clade",
+      "color_map": [
+        [
+          "clade_1",
+          "#0082c8"
+        ],
+        [
+          "clade_2",
+          "#e6194b"
+        ],
+        [
+          "clade_3",
+          "#ffe119"
+        ],
+        [
+          "clade_4",
+          "#3cb44b"
+        ]
+      ]
+    },
+    "country": {
+      "legendTitle": "country",
+      "menuItem": "country",
+      "key": "country",
+      "color_map": [
+        [
+          "new_zealand",
+          "#84ba60"
+        ]
+      ]
+    }
+  },
+  "geo": {
+    "location": {
+      "northland": {
+        "latitude": -35.3712702,
+        "longitude": 173.7405337
+      },
+      "christchurch": {
+        "latitude": -43.530955,
+        "longitude": 172.6366455
+      },
+      "marlborough": {
+        "latitude": -41.47447475,
+        "longitude": 173.833026257761
+      },
+      "manawatu": {
+        "latitude": -40.1196597,
+        "longitude": 175.723397819953
+      },
+      "taranaki": {
+        "latitude": -39.2711067,
+        "longitude": 174.154795
+      },
+      "kaitangata": {
+        "latitude": -46.2817388,
+        "longitude": 169.8464139
+      },
+      "northcant": {
+        "latitude": -43.49417615,
+        "longitude": 171.809844758414
+      },
+      "centralotago": {
+        "latitude": -45.1299859,
+        "longitude": 169.5248818
+      },
+      "wanganui": {
+        "latitude": -39.9347494,
+        "longitude": 175.0539001
+      },
+      "westcoast": {
+        "latitude": -42.9945669,
+        "longitude": 170.7100413
+      },
+      "mackenziecountry": {
+        "latitude": -43.9379359,
+        "longitude": 170.41170474189
+      },
+      "kingcountry": {
+        "latitude": -38.6695702,
+        "longitude": 176.0975771
+      },
+      "kaikoura": {
+        "latitude": -42.4003723,
+        "longitude": 173.6803614
+      },
+      "taupo": {
+        "latitude": -38.6874922,
+        "longitude": 176.0754385
+      },
+      "northotago": {
+        "latitude": -45.1299859,
+        "longitude": 169.5248818
+      },
+      "taihape": {
+        "latitude": -39.6762559,
+        "longitude": 175.7978208
+      },
+      "napier": {
+        "latitude": -39.4908578,
+        "longitude": 176.9179114
+      },
+      "rotorua": {
+        "latitude": -38.1381493,
+        "longitude": 176.252922
+      },
+      "waikato": {
+        "latitude": -37.77922725,
+        "longitude": 175.201032324659
+      },
+      "southcanterbury": {
+        "latitude": -43.49417615,
+        "longitude": 171.809844758414
+      },
+      "auckland": {
+        "latitude": -36.8534665,
+        "longitude": 174.7655514
+      },
+      "hawkesbay": {
+        "latitude": -39.4343279,
+        "longitude": 176.7652742
+      },
+      "blenheim": {
+        "latitude": -41.5155626,
+        "longitude": 173.9602692
+      },
+      "canterbury": {
+        "latitude": -43.49417615,
+        "longitude": 171.809844758414
+      },
+      "southland": {
+        "latitude": -45.7255555,
+        "longitude": 168.2936808
+      },
+      "otago": {
+        "latitude": -45.1299859,
+        "longitude": 169.5248818
+      },
+      "eastcoast": {
+        "latitude": -38.518274,
+        "longitude": 178.290208
+      },
+      "centralcanterbury": {
+        "latitude": -43.49417615,
+        "longitude": 171.809844758414
+      },
+      "bankspeninsula": {
+        "latitude": -43.7233892,
+        "longitude": 172.910213
+      }
+    }
+  },
+  "filters": [
+    "location",
+    "host",
+    "authors"
+  ],
+  "maintainer": [
+    "Emma Hodcroft",
+    "https://neherlab.org/emma-hodcroft.html"
+  ],
+  "updated": "14 Aug 2018",
+  "virus_count": 296,
+  "author_info": {
+    "Crispell et al": {
+      "n": 296,
+      "title": "Using whole genome sequencing to investigate transmission in a multi-host system: bovine tuberculosis in New Zealand",
+      "paper_url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3569-x"
+    }
+  },
+  "annotations": {
+    "gyrB": {
+      "start": 5239,
+      "end": 7267,
+      "strand": 1
+    },
+    "gyrA": {
+      "start": 7301,
+      "end": 9818,
+      "strand": 1
+    },
+    "Rv0010c": {
+      "start": 13132,
+      "end": 13558,
+      "strand": -1
+    },
+    "Rv0011c": {
+      "start": 13713,
+      "end": 13995,
+      "strand": -1
+    },
+    "Rv0026": {
+      "start": 29721,
+      "end": 31068,
+      "strand": 1
+    },
+    "Rv0039c": {
+      "start": 42003,
+      "end": 42351,
+      "strand": -1
+    },
+    "ponA1": {
+      "start": 53662,
+      "end": 55699,
+      "strand": 1
+    },
+    "Rv0147": {
+      "start": 173237,
+      "end": 174758,
+      "strand": 1
+    },
+    "mce1R": {
+      "start": 194143,
+      "end": 194815,
+      "strand": -1
+    },
+    "lprO": {
+      "start": 209702,
+      "end": 210812,
+      "strand": -1
+    },
+    "fadA2": {
+      "start": 292170,
+      "end": 293493,
+      "strand": 1
+    },
+    "fadE5": {
+      "start": 293797,
+      "end": 295633,
+      "strand": -1
+    },
+    "fecB2": {
+      "start": 316510,
+      "end": 317503,
+      "strand": -1
+    },
+    "esxG": {
+      "start": 351524,
+      "end": 351818,
+      "strand": 1
+    },
+    "esxH": {
+      "start": 351847,
+      "end": 352138,
+      "strand": 1
+    },
+    "Rv0323c": {
+      "start": 390579,
+      "end": 391251,
+      "strand": -1
+    },
+    "Rv0401": {
+      "start": 479788,
+      "end": 480160,
+      "strand": 1
+    },
+    "mmpL1": {
+      "start": 480354,
+      "end": 483231,
+      "strand": -1
+    },
+    "fadD30": {
+      "start": 483976,
+      "end": 485734,
+      "strand": 1
+    },
+    "Rv0466": {
+      "start": 556457,
+      "end": 557252,
+      "strand": 1
+    },
+    "icl1": {
+      "start": 557526,
+      "end": 558813,
+      "strand": 1
+    },
+    "Rv0565c": {
+      "start": 656009,
+      "end": 657470,
+      "strand": -1
+    },
+    "Rv0600c": {
+      "start": 697903,
+      "end": 698410,
+      "strand": -1
+    },
+    "Rv0605": {
+      "start": 701405,
+      "end": 702014,
+      "strand": 1
+    },
+    "vapB28": {
+      "start": 703243,
+      "end": 703489,
+      "strand": 1
+    },
+    "lipG": {
+      "start": 740233,
+      "end": 741139,
+      "strand": -1
+    },
+    "rpoB": {
+      "start": 759806,
+      "end": 763325,
+      "strand": 1
+    },
+    "rpoC": {
+      "start": 763369,
+      "end": 767320,
+      "strand": 1
+    },
+    "rpsL": {
+      "start": 781559,
+      "end": 781934,
+      "strand": 1
+    },
+    "Rv0744c": {
+      "start": 834439,
+      "end": 834946,
+      "strand": -1
+    },
+    "Rv0745": {
+      "start": 835153,
+      "end": 835681,
+      "strand": 1
+    },
+    "pabC": {
+      "start": 906422,
+      "end": 907292,
+      "strand": 1
+    },
+    "pip": {
+      "start": 936456,
+      "end": 937317,
+      "strand": -1
+    },
+    "Rv0841": {
+      "start": 937592,
+      "end": 937835,
+      "strand": 1
+    },
+    "PPE13": {
+      "start": 976871,
+      "end": 978203,
+      "strand": -1
+    },
+    "Rv0879c": {
+      "start": 978480,
+      "end": 978756,
+      "strand": -1
+    },
+    "Rv0893c": {
+      "start": 995317,
+      "end": 996295,
+      "strand": -1
+    },
+    "ctpE": {
+      "start": 1011730,
+      "end": 1014124,
+      "strand": 1
+    },
+    "Rv0909": {
+      "start": 1014680,
+      "end": 1014860,
+      "strand": 1
+    },
+    "Rv0920c": {
+      "start": 1025496,
+      "end": 1026816,
+      "strand": -1
+    },
+    "Rv0921": {
+      "start": 1027103,
+      "end": 1027685,
+      "strand": 1
+    },
+    "esxI": {
+      "start": 1160543,
+      "end": 1160828,
+      "strand": -1
+    },
+    "esxJ": {
+      "start": 1160854,
+      "end": 1161151,
+      "strand": -1
+    },
+    "Rv1042c": {
+      "start": 1165091,
+      "end": 1165499,
+      "strand": -1
+    },
+    "Rv1043c": {
+      "start": 1165780,
+      "end": 1166806,
+      "strand": -1
+    },
+    "fadD14": {
+      "start": 1180683,
+      "end": 1182315,
+      "strand": 1
+    },
+    "echA8": {
+      "start": 1194269,
+      "end": 1195043,
+      "strand": -1
+    },
+    "fadA3": {
+      "start": 1198155,
+      "end": 1199373,
+      "strand": -1
+    },
+    "greA": {
+      "start": 1205303,
+      "end": 1205798,
+      "strand": -1
+    },
+    "Rv1081c": {
+      "start": 1205983,
+      "end": 1206418,
+      "strand": -1
+    },
+    "Rv1096": {
+      "start": 1224384,
+      "end": 1225260,
+      "strand": 1
+    },
+    "Rv1112": {
+      "start": 1238254,
+      "end": 1239328,
+      "strand": 1
+    },
+    "Rv1129c": {
+      "start": 1253073,
+      "end": 1254534,
+      "strand": -1
+    },
+    "Rv1144": {
+      "start": 1271155,
+      "end": 1271908,
+      "strand": 1
+    },
+    "pks3": {
+      "start": 1313724,
+      "end": 1315191,
+      "strand": 1
+    },
+    "Rv1192": {
+      "start": 1334926,
+      "end": 1335754,
+      "strand": 1
+    },
+    "Rv1194c": {
+      "start": 1337247,
+      "end": 1338513,
+      "strand": -1
+    },
+    "PE13": {
+      "start": 1339002,
+      "end": 1339302,
+      "strand": 1
+    },
+    "esxK": {
+      "start": 1340658,
+      "end": 1340955,
+      "strand": 1
+    },
+    "esxL": {
+      "start": 1341005,
+      "end": 1341290,
+      "strand": 1
+    },
+    "Rv1218c": {
+      "start": 1361797,
+      "end": 1362733,
+      "strand": -1
+    },
+    "rfe": {
+      "start": 1458294,
+      "end": 1459509,
+      "strand": 1
+    },
+    "Rv1303": {
+      "start": 1459765,
+      "end": 1460251,
+      "strand": 1
+    },
+    "rrs": {
+      "start": 1471845,
+      "end": 1473382,
+      "strand": 1
+    },
+    "fadA4": {
+      "start": 1485861,
+      "end": 1487031,
+      "strand": 1
+    },
+    "mbtK": {
+      "start": 1511972,
+      "end": 1512605,
+      "strand": -1
+    },
+    "irtA": {
+      "start": 1513046,
+      "end": 1515626,
+      "strand": 1
+    },
+    "pyrB": {
+      "start": 1553231,
+      "end": 1554191,
+      "strand": 1
+    },
+    "PPE20": {
+      "start": 1561768,
+      "end": 1563388,
+      "strand": 1
+    },
+    "Rv1393c": {
+      "start": 1568108,
+      "end": 1569587,
+      "strand": -1
+    },
+    "opcA": {
+      "start": 1624453,
+      "end": 1625365,
+      "strand": -1
+    },
+    "Rv1465": {
+      "start": 1652767,
+      "end": 1653256,
+      "strand": 1
+    },
+    "Rv1482c": {
+      "start": 1672456,
+      "end": 1673299,
+      "strand": -1
+    },
+    "fabG1": {
+      "start": 1673439,
+      "end": 1674183,
+      "strand": 1
+    },
+    "inhA": {
+      "start": 1674201,
+      "end": 1675011,
+      "strand": 1
+    },
+    "Rv1520": {
+      "start": 1711027,
+      "end": 1712068,
+      "strand": 1
+    },
+    "rpsA": {
+      "start": 1833541,
+      "end": 1834987,
+      "strand": 1
+    },
+    "pks8": {
+      "start": 1881703,
+      "end": 1886512,
+      "strand": 1
+    },
+    "pks17": {
+      "start": 1886511,
+      "end": 1888020,
+      "strand": 1
+    },
+    "tlyA": {
+      "start": 1917939,
+      "end": 1918746,
+      "strand": 1
+    },
+    "pyrG": {
+      "start": 1923828,
+      "end": 1925589,
+      "strand": 1
+    },
+    "cycA": {
+      "start": 1929785,
+      "end": 1931456,
+      "strand": -1
+    },
+    "narX": {
+      "start": 1962227,
+      "end": 1964186,
+      "strand": -1
+    },
+    "vapC34": {
+      "start": 1967916,
+      "end": 1968165,
+      "strand": 1
+    },
+    "pknF": {
+      "start": 1972137,
+      "end": 1973568,
+      "strand": 1
+    },
+    "esxM": {
+      "start": 2030346,
+      "end": 2030643,
+      "strand": 1
+    },
+    "esxN": {
+      "start": 2030693,
+      "end": 2030978,
+      "strand": 1
+    },
+    "Rv1816": {
+      "start": 2058255,
+      "end": 2058960,
+      "strand": 1
+    },
+    "Rv1817": {
+      "start": 2059594,
+      "end": 2061058,
+      "strand": 1
+    },
+    "ndh": {
+      "start": 2101650,
+      "end": 2103042,
+      "strand": -1
+    },
+    "lldD2": {
+      "start": 2121906,
+      "end": 2123151,
+      "strand": -1
+    },
+    "*MtCM": {
+      "start": 2134272,
+      "end": 2134872,
+      "strand": -1
+    },
+    "lipJ": {
+      "start": 2146244,
+      "end": 2147633,
+      "strand": -1
+    },
+    "cinA": {
+      "start": 2147661,
+      "end": 2148954,
+      "strand": 1
+    },
+    "katG": {
+      "start": 2153888,
+      "end": 2156111,
+      "strand": -1
+    },
+    "furA": {
+      "start": 2156148,
+      "end": 2156592,
+      "strand": -1
+    },
+    "Rv1939": {
+      "start": 2192093,
+      "end": 2192609,
+      "strand": 1
+    },
+    "mce3D": {
+      "start": 2212854,
+      "end": 2214126,
+      "strand": 1
+    },
+    "pncA": {
+      "start": 2288680,
+      "end": 2289241,
+      "strand": -1
+    },
+    "pks12": {
+      "start": 2294530,
+      "end": 2306986,
+      "strand": -1
+    },
+    "blaC": {
+      "start": 2325885,
+      "end": 2326809,
+      "strand": -1
+    },
+    "sigC": {
+      "start": 2326943,
+      "end": 2327501,
+      "strand": 1
+    },
+    "Rv2077c": {
+      "start": 2333322,
+      "end": 2334294,
+      "strand": -1
+    },
+    "lppJ": {
+      "start": 2337305,
+      "end": 2337869,
+      "strand": 1
+    },
+    "murD": {
+      "start": 2414933,
+      "end": 2416394,
+      "strand": -1
+    },
+    "cobS": {
+      "start": 2472492,
+      "end": 2473242,
+      "strand": 1
+    },
+    "Rv2209": {
+      "start": 2473399,
+      "end": 2474938,
+      "strand": 1
+    },
+    "dlaT": {
+      "start": 2481964,
+      "end": 2483626,
+      "strand": 1
+    },
+    "kasA": {
+      "start": 2518114,
+      "end": 2519365,
+      "strand": 1
+    },
+    "mazF8": {
+      "start": 2546487,
+      "end": 2546805,
+      "strand": -1
+    },
+    "yjcE": {
+      "start": 2559702,
+      "end": 2561331,
+      "strand": 1
+    },
+    "Rv2314c": {
+      "start": 2585916,
+      "end": 2587290,
+      "strand": -1
+    },
+    "cysE": {
+      "start": 2609731,
+      "end": 2610421,
+      "strand": 1
+    },
+    "PE_PGRS39": {
+      "start": 2617666,
+      "end": 2618908,
+      "strand": -1
+    },
+    "lppQ": {
+      "start": 2619596,
+      "end": 2620016,
+      "strand": 1
+    },
+    "esxO": {
+      "start": 2625887,
+      "end": 2626172,
+      "strand": -1
+    },
+    "esxP": {
+      "start": 2626222,
+      "end": 2626519,
+      "strand": -1
+    },
+    "eis": {
+      "start": 2714123,
+      "end": 2715332,
+      "strand": -1
+    },
+    "Rv2417c": {
+      "start": 2715471,
+      "end": 2716314,
+      "strand": -1
+    },
+    "proA": {
+      "start": 2724229,
+      "end": 2725477,
+      "strand": -1
+    },
+    "ahpC": {
+      "start": 2726192,
+      "end": 2726780,
+      "strand": 1
+    },
+    "rbsK": {
+      "start": 2733229,
+      "end": 2734144,
+      "strand": 1
+    },
+    "folC": {
+      "start": 2746134,
+      "end": 2747598,
+      "strand": -1
+    },
+    "vapC39": {
+      "start": 2854266,
+      "end": 2854686,
+      "strand": -1
+    },
+    "Rv2729c": {
+      "start": 3041569,
+      "end": 3042475,
+      "strand": -1
+    },
+    "Rv2733c": {
+      "start": 3044985,
+      "end": 3046524,
+      "strand": -1
+    },
+    "Rv2734": {
+      "start": 3046820,
+      "end": 3047675,
+      "strand": 1
+    },
+    "Rv2752c": {
+      "start": 3064514,
+      "end": 3066191,
+      "strand": -1
+    },
+    "thyX": {
+      "start": 3067192,
+      "end": 3067945,
+      "strand": -1
+    },
+    "hsdS": {
+      "start": 3071545,
+      "end": 3072640,
+      "strand": -1
+    },
+    "thyA": {
+      "start": 3073679,
+      "end": 3074471,
+      "strand": -1
+    },
+    "Rv2765": {
+      "start": 3074635,
+      "end": 3075373,
+      "strand": 1
+    },
+    "Rv2771c": {
+      "start": 3080580,
+      "end": 3081033,
+      "strand": -1
+    },
+    "Rv2807": {
+      "start": 3113657,
+      "end": 3114812,
+      "strand": 1
+    },
+    "Rv2885c": {
+      "start": 3194165,
+      "end": 3195548,
+      "strand": -1
+    },
+    "ppsA": {
+      "start": 3245444,
+      "end": 3251075,
+      "strand": 1
+    },
+    "pks15": {
+      "start": 3296349,
+      "end": 3297840,
+      "strand": -1
+    },
+    "esxQ": {
+      "start": 3376489,
+      "end": 3376852,
+      "strand": -1
+    },
+    "esxR": {
+      "start": 3378710,
+      "end": 3379001,
+      "strand": -1
+    },
+    "esxS": {
+      "start": 3379035,
+      "end": 3379329,
+      "strand": -1
+    },
+    "Rv3067": {
+      "start": 3431427,
+      "end": 3431838,
+      "strand": 1
+    },
+    "Rv3071": {
+      "start": 3434463,
+      "end": 3435573,
+      "strand": 1
+    },
+    "Rv3087": {
+      "start": 3452924,
+      "end": 3454343,
+      "strand": 1
+    },
+    "Rv3090": {
+      "start": 3458210,
+      "end": 3459098,
+      "strand": 1
+    },
+    "cyp141": {
+      "start": 3486508,
+      "end": 3487711,
+      "strand": 1
+    },
+    "PPE50": {
+      "start": 3501333,
+      "end": 3501732,
+      "strand": 1
+    },
+    "Rv3210c": {
+      "start": 3586843,
+      "end": 3587539,
+      "strand": -1
+    },
+    "rhlE": {
+      "start": 3587797,
+      "end": 3589381,
+      "strand": 1
+    },
+    "mtrB": {
+      "start": 3624909,
+      "end": 3626613,
+      "strand": -1
+    },
+    "whiB2": {
+      "start": 3639871,
+      "end": 3640141,
+      "strand": -1
+    },
+    "fbiA": {
+      "start": 3640542,
+      "end": 3641538,
+      "strand": 1
+    },
+    "esxT": {
+      "start": 3862623,
+      "end": 3862926,
+      "strand": -1
+    },
+    "esxU": {
+      "start": 3862946,
+      "end": 3863264,
+      "strand": -1
+    },
+    "infA": {
+      "start": 3880431,
+      "end": 3880653,
+      "strand": -1
+    },
+    "Rv3463": {
+      "start": 3880906,
+      "end": 3881764,
+      "strand": 1
+    },
+    "fadA5": {
+      "start": 3985556,
+      "end": 3986732,
+      "strand": 1
+    },
+    "fadA6": {
+      "start": 3995803,
+      "end": 3996964,
+      "strand": -1
+    },
+    "fadE33": {
+      "start": 4005246,
+      "end": 4006203,
+      "strand": 1
+    },
+    "esxV": {
+      "start": 4059983,
+      "end": 4060268,
+      "strand": -1
+    },
+    "esxW": {
+      "start": 4060294,
+      "end": 4060591,
+      "strand": -1
+    },
+    "Rv3651": {
+      "start": 4091840,
+      "end": 4092878,
+      "strand": 1
+    },
+    "PE_PGRS60": {
+      "start": 4093631,
+      "end": 4093946,
+      "strand": 1
+    },
+    "dnaQ": {
+      "start": 4155739,
+      "end": 4156729,
+      "strand": -1
+    },
+    "proZ": {
+      "start": 4201893,
+      "end": 4202613,
+      "strand": -1
+    },
+    "tcrX": {
+      "start": 4211079,
+      "end": 4211784,
+      "strand": -1
+    },
+    "Rv3766": {
+      "start": 4212292,
+      "end": 4212982,
+      "strand": 1
+    },
+    "embC": {
+      "start": 4239862,
+      "end": 4243147,
+      "strand": 1
+    },
+    "embA": {
+      "start": 4243232,
+      "end": 4246517,
+      "strand": 1
+    },
+    "embB": {
+      "start": 4246513,
+      "end": 4249810,
+      "strand": 1
+    },
+    "atsH": {
+      "start": 4249877,
+      "end": 4251005,
+      "strand": 1
+    },
+    "fadE35": {
+      "start": 4251084,
+      "end": 4252866,
+      "strand": 1
+    },
+    "ubiA": {
+      "start": 4268924,
+      "end": 4269833,
+      "strand": -1
+    },
+    "pks2": {
+      "start": 4293224,
+      "end": 4299605,
+      "strand": -1
+    },
+    "ethA": {
+      "start": 4326003,
+      "end": 4327473,
+      "strand": -1
+    },
+    "whiB6": {
+      "start": 4338170,
+      "end": 4338521,
+      "strand": -1
+    },
+    "Rv3863": {
+      "start": 4338848,
+      "end": 4340027,
+      "strand": 1
+    },
+    "esxB": {
+      "start": 4352273,
+      "end": 4352576,
+      "strand": 1
+    },
+    "esxA": {
+      "start": 4352608,
+      "end": 4352896,
+      "strand": 1
+    },
+    "eccD1": {
+      "start": 4355006,
+      "end": 4356542,
+      "strand": 1
+    },
+    "espB": {
+      "start": 4360542,
+      "end": 4361925,
+      "strand": -1
+    },
+    "espG2": {
+      "start": 4372799,
+      "end": 4373630,
+      "strand": -1
+    },
+    "esxC": {
+      "start": 4373725,
+      "end": 4374013,
+      "strand": -1
+    },
+    "esxD": {
+      "start": 4374048,
+      "end": 4374372,
+      "strand": -1
+    },
+    "eccC2": {
+      "start": 4376261,
+      "end": 4380452,
+      "strand": -1
+    },
+    "esxE": {
+      "start": 4390436,
+      "end": 4390709,
+      "strand": -1
+    },
+    "esxF": {
+      "start": 4390719,
+      "end": 4391031,
+      "strand": -1
+    },
+    "gid": {
+      "start": 4407527,
+      "end": 4408202,
+      "strand": -1
+    },
+    "nuc": {
+      "start": 0,
+      "end": 4411532,
+      "strand": 1
+    }
+  },
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}
