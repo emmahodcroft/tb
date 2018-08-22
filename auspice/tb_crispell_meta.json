@@ -7,6 +7,30 @@
       "type": "discrete",
       "key": "genotype"
     },
+    "clade_membership": {
+      "menuItem": "Clades",
+      "legendTitle": "Clades",
+      "type": "discrete",
+      "key": "clade_membership",
+      "color_map": [
+        [
+          "Clade_1",
+          "#0082c8"
+        ],
+        [
+          "Clade_2",
+          "#e6194b"
+        ],
+        [
+          "Clade_3",
+          "#ffe119"
+        ],
+        [
+          "Clade_4",
+          "#3cb44b"
+        ]
+      ]
+    },
     "num_date": {
       "menuItem": "date",
       "legendTitle": "Sampling date",
@@ -72,29 +96,6 @@
         ]
       ]
     },
-    "clade": {
-      "legendTitle": "clade",
-      "menuItem": "clade",
-      "key": "clade",
-      "color_map": [
-        [
-          "clade_1",
-          "#0082c8"
-        ],
-        [
-          "clade_2",
-          "#e6194b"
-        ],
-        [
-          "clade_3",
-          "#ffe119"
-        ],
-        [
-          "clade_4",
-          "#3cb44b"
-        ]
-      ]
-    },
     "country": {
       "legendTitle": "country",
       "menuItem": "country",
@@ -109,121 +110,121 @@
   },
   "geo": {
     "location": {
-      "northotago": {
-        "latitude": -45.1299859,
-        "longitude": 169.5248818
-      },
-      "northcant": {
-        "latitude": -43.49417615,
-        "longitude": 171.809844758414
-      },
-      "hawkesbay": {
-        "latitude": -39.4343279,
-        "longitude": 176.7652742
-      },
-      "canterbury": {
-        "latitude": -43.49417615,
-        "longitude": 171.809844758414
-      },
-      "centralcanterbury": {
-        "latitude": -43.49417615,
-        "longitude": 171.809844758414
-      },
-      "taupo": {
-        "latitude": -38.6874922,
-        "longitude": 176.0754385
-      },
-      "marlborough": {
-        "latitude": -41.47447475,
-        "longitude": 173.833026257761
-      },
-      "mackenziecountry": {
-        "latitude": -43.9379359,
-        "longitude": 170.41170474189
-      },
-      "christchurch": {
-        "latitude": -43.530955,
-        "longitude": 172.6366455
-      },
-      "otago": {
-        "latitude": -45.1299859,
-        "longitude": 169.5248818
-      },
-      "southcanterbury": {
-        "latitude": -43.49417615,
-        "longitude": 171.809844758414
-      },
-      "manawatu": {
-        "latitude": -40.1196597,
-        "longitude": 175.723397819953
-      },
       "napier": {
         "latitude": -39.4908578,
         "longitude": 176.9179114
-      },
-      "taihape": {
-        "latitude": -39.6762559,
-        "longitude": 175.7978208
-      },
-      "taranaki": {
-        "latitude": -39.2711067,
-        "longitude": 174.154795
-      },
-      "rotorua": {
-        "latitude": -38.1381493,
-        "longitude": 176.252922
-      },
-      "kaikoura": {
-        "latitude": -42.4003723,
-        "longitude": 173.6803614
-      },
-      "kaitangata": {
-        "latitude": -46.2817388,
-        "longitude": 169.8464139
-      },
-      "kingcountry": {
-        "latitude": -38.6695702,
-        "longitude": 176.0975771
-      },
-      "southland": {
-        "latitude": -45.7255555,
-        "longitude": 168.2936808
-      },
-      "northland": {
-        "latitude": -35.3712702,
-        "longitude": 173.7405337
       },
       "eastcoast": {
         "latitude": -38.518274,
         "longitude": 178.290208
       },
-      "wanganui": {
-        "latitude": -39.9347494,
-        "longitude": 175.0539001
+      "southcanterbury": {
+        "latitude": -44.68,
+        "longitude": 170.56
       },
-      "blenheim": {
-        "latitude": -41.5155626,
-        "longitude": 173.9602692
+      "christchurch": {
+        "latitude": -43.530955,
+        "longitude": 172.6366455
       },
-      "westcoast": {
-        "latitude": -42.9945669,
-        "longitude": 170.7100413
+      "taupo": {
+        "latitude": -38.6874922,
+        "longitude": 176.0754385
       },
       "bankspeninsula": {
         "latitude": -43.7233892,
         "longitude": 172.910213
       },
-      "auckland": {
-        "latitude": -36.8534665,
-        "longitude": 174.7655514
+      "kingcountry": {
+        "latitude": -38.6695702,
+        "longitude": 176.0975771
       },
       "waikato": {
         "latitude": -37.77922725,
         "longitude": 175.201032324659
       },
-      "centralotago": {
+      "taranaki": {
+        "latitude": -39.2711067,
+        "longitude": 174.154795
+      },
+      "canterbury": {
+        "latitude": -43.49417615,
+        "longitude": 171.809844758414
+      },
+      "mackenziecountry": {
+        "latitude": -43.9379359,
+        "longitude": 170.41170474189
+      },
+      "marlborough": {
+        "latitude": -41.47447475,
+        "longitude": 173.833026257761
+      },
+      "centralcanterbury": {
+        "latitude": -43.62,
+        "longitude": 172.18
+      },
+      "westcoast": {
+        "latitude": -42.9945669,
+        "longitude": 170.7100413
+      },
+      "blenheim": {
+        "latitude": -41.5155626,
+        "longitude": 173.9602692
+      },
+      "taihape": {
+        "latitude": -39.6762559,
+        "longitude": 175.7978208
+      },
+      "otago": {
         "latitude": -45.1299859,
         "longitude": 169.5248818
+      },
+      "hawkesbay": {
+        "latitude": -39.4343279,
+        "longitude": 176.7652742
+      },
+      "northland": {
+        "latitude": -35.3712702,
+        "longitude": 173.7405337
+      },
+      "kaikoura": {
+        "latitude": -42.4003723,
+        "longitude": 173.6803614
+      },
+      "centralotago": {
+        "latitude": -45.53,
+        "longitude": 170.27
+      },
+      "northcant": {
+        "latitude": -42.56,
+        "longitude": 172.66
+      },
+      "wanganui": {
+        "latitude": -39.9347494,
+        "longitude": 175.0539001
+      },
+      "kaitangata": {
+        "latitude": -46.2817388,
+        "longitude": 169.8464139
+      },
+      "auckland": {
+        "latitude": -36.8534665,
+        "longitude": 174.7655514
+      },
+      "southland": {
+        "latitude": -45.7255555,
+        "longitude": 168.2936808
+      },
+      "northotago": {
+        "latitude": -44.32,
+        "longitude": 169.34
+      },
+      "rotorua": {
+        "latitude": -38.1381493,
+        "longitude": 176.252922
+      },
+      "manawatu": {
+        "latitude": -40.1196597,
+        "longitude": 175.723397819953
       }
     }
   },
@@ -241,7 +242,7 @@
     "colorBy": "location",
     "geoResolution": "location"
   },
-  "updated": "14 Aug 2018",
+  "updated": "22 Aug 2018",
   "virus_count": 296,
   "author_info": {
     "Crispell et al": {
