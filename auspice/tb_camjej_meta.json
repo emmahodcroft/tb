@@ -1,0 +1,1401 @@
+{
+  "title": "Campylobacter jejuni in Basel region",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "eryth_resist": {
+      "menuItem": "Eryth Resistance",
+      "legendTitle": "Eryth Resistance",
+      "type": "discrete",
+      "key": "eryth_resist"
+    },
+    "material": {
+      "type": "discrete",
+      "legendTitle": "material",
+      "menuItem": "material",
+      "key": "material"
+    },
+    "cipro_resist": {
+      "menuItem": "Cipro Resistance",
+      "legendTitle": "Cipro Resistance",
+      "type": "discrete",
+      "key": "cipro_resist"
+    },
+    "location": {
+      "type": "discrete",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "key": "location"
+    },
+    "host": {
+      "type": "discrete",
+      "legendTitle": "host",
+      "menuItem": "host",
+      "key": "host"
+    },
+    "country": {
+      "legendTitle": "country",
+      "menuItem": "country",
+      "key": "country",
+      "color_map": [
+        [
+          "switzerland",
+          "#00ff00"
+        ],
+        [
+          "germany",
+          "#ff00ff"
+        ],
+        [
+          "usa",
+          "#d73324"
+        ],
+        [
+          "france",
+          "#4274CE"
+        ]
+      ]
+    }
+  },
+  "geo": {
+    "location": {
+      "rheinfelden": {
+        "latitude": 47.5543859,
+        "longitude": 7.7922905
+      },
+      "ziefen": {
+        "latitude": 47.4305811,
+        "longitude": 7.7063432
+      },
+      "lucerne": {
+        "latitude": 47.0505452,
+        "longitude": 8.3054682
+      },
+      "buschwiller": {
+        "latitude": 47.5582234,
+        "longitude": 7.5057545
+      },
+      "frenkendorf": {
+        "latitude": 47.5028543,
+        "longitude": 7.7138283
+      },
+      "seon": {
+        "latitude": 47.3460005,
+        "longitude": 8.1593554
+      },
+      "bern": {
+        "latitude": 46.9482713,
+        "longitude": 7.4514512
+      },
+      "binningen": {
+        "latitude": 47.53656,
+        "longitude": 7.570077
+      },
+      "reigoldswil": {
+        "latitude": 47.3974255,
+        "longitude": 7.6918178
+      },
+      "zell": {
+        "latitude": 47.448026,
+        "longitude": 8.8227739
+      },
+      "aesch": {
+        "latitude": 47.4682447,
+        "longitude": 7.5980395
+      },
+      "wallbach": {
+        "latitude": 47.5599243,
+        "longitude": 7.902809
+      },
+      "del\u00e9mont": {
+        "latitude": 47.3619609,
+        "longitude": 7.354039
+      },
+      "fontenais": {
+        "latitude": 47.3893866,
+        "longitude": 7.07617635762008
+      },
+      "unterseen": {
+        "latitude": 46.6871654,
+        "longitude": 7.8496369
+      },
+      "chavannes": {
+        "latitude": 46.5285212,
+        "longitude": 6.5726698
+      },
+      "r\u00f6schenz": {
+        "latitude": 47.4238316,
+        "longitude": 7.4759663
+      },
+      "bettingen": {
+        "latitude": 47.5714149,
+        "longitude": 7.6639831
+      },
+      "wentzwiller": {
+        "latitude": 47.5503538,
+        "longitude": 7.481803
+      },
+      "m\u00fcnchenstein": {
+        "latitude": 47.5187909,
+        "longitude": 7.6174515
+      },
+      "laufen": {
+        "latitude": 47.4224096,
+        "longitude": 7.5020019
+      },
+      "giebenach": {
+        "latitude": 47.523792,
+        "longitude": 7.7453139
+      },
+      "bach_sz": {
+        "latitude": 47.2042376,
+        "longitude": 8.7335692
+      },
+      "menziken": {
+        "latitude": 47.240878,
+        "longitude": 8.187274
+      },
+      "reinach": {
+        "latitude": 47.4935369,
+        "longitude": 7.5910891
+      },
+      "tafers": {
+        "latitude": 46.8152805,
+        "longitude": 7.2167886
+      },
+      "birsfelden": {
+        "latitude": 47.5542152,
+        "longitude": 7.6304739
+      },
+      "bottmingen": {
+        "latitude": 47.5234501,
+        "longitude": 7.5748727
+      },
+      "weil_am_rhein": {
+        "latitude": 47.5932802,
+        "longitude": 7.6116133
+      },
+      "arboldswil": {
+        "latitude": 47.4158911,
+        "longitude": 7.7170041
+      },
+      "therwil": {
+        "latitude": 47.499334,
+        "longitude": 7.5574747
+      },
+      "efringen-kirchen": {
+        "latitude": 47.6556421,
+        "longitude": 7.565174
+      },
+      "m\u00f6hlin": {
+        "latitude": 47.5610087,
+        "longitude": 7.8427932
+      },
+      "dornach": {
+        "latitude": 47.4806097,
+        "longitude": 7.6176609
+      },
+      "schwaderloch": {
+        "latitude": 47.5853969,
+        "longitude": 8.1435346
+      },
+      "riehen": {
+        "latitude": 47.5816927,
+        "longitude": 7.6479737
+      },
+      "court\u00e9telle": {
+        "latitude": 47.3418687,
+        "longitude": 7.3162671
+      },
+      "muri_bei_bern": {
+        "latitude": 46.9332991,
+        "longitude": 7.49972434660936
+      },
+      "hurden": {
+        "latitude": 47.2142501,
+        "longitude": 8.8043485
+      },
+      "founex": {
+        "latitude": 46.3338174,
+        "longitude": 6.1943733
+      },
+      "dizy": {
+        "latitude": 46.6348867,
+        "longitude": 6.4949896
+      },
+      "muttenz": {
+        "latitude": 47.525113,
+        "longitude": 7.6477401
+      },
+      "oberwil": {
+        "latitude": 47.5136942,
+        "longitude": 7.5527853
+      },
+      "courtepin": {
+        "latitude": 46.8646535,
+        "longitude": 7.12501542155265
+      },
+      "rosenau": {
+        "latitude": 47.6375154,
+        "longitude": 7.5371474
+      },
+      "grellingen": {
+        "latitude": 47.4411563,
+        "longitude": 7.5876358
+      },
+      "san_antonio": {
+        "latitude": 29.4246002,
+        "longitude": -98.4951405
+      },
+      "rothrist": {
+        "latitude": 47.3029125,
+        "longitude": 7.8826232
+      },
+      "nusshof": {
+        "latitude": 47.4918508,
+        "longitude": 7.8047393
+      },
+      "biel-benken": {
+        "latitude": 47.506771,
+        "longitude": 7.520962
+      },
+      "wahlen": {
+        "latitude": 47.4021415,
+        "longitude": 7.5148865
+      },
+      "pratteln": {
+        "latitude": 47.5192013,
+        "longitude": 7.6944741
+      },
+      "kleinb\u00f6singen": {
+        "latitude": 46.8944209,
+        "longitude": 7.2047406
+      },
+      "arlesheim": {
+        "latitude": 47.4931125,
+        "longitude": 7.6202048
+      },
+      "grenzach-wyhlen": {
+        "latitude": 47.5540691,
+        "longitude": 7.67687087177382
+      },
+      "hofstetten": {
+        "latitude": 47.4755349,
+        "longitude": 7.5158929
+      },
+      "diegten": {
+        "latitude": 47.409937,
+        "longitude": 7.809077
+      },
+      "schinznach": {
+        "latitude": 47.4473496,
+        "longitude": 8.13772978603844
+      },
+      "ettingen": {
+        "latitude": 47.4816164,
+        "longitude": 7.5441378
+      },
+      "zeiningen": {
+        "latitude": 47.5414438,
+        "longitude": 7.8716277
+      },
+      "basel": {
+        "latitude": 47.5581077,
+        "longitude": 7.5878261
+      },
+      "egerkingen": {
+        "latitude": 47.3225009,
+        "longitude": 7.7947889
+      },
+      "lotzwil": {
+        "latitude": 47.1903503,
+        "longitude": 7.7896055
+      },
+      "gelterkinden": {
+        "latitude": 47.4640069,
+        "longitude": 7.8544495
+      },
+      "liestal": {
+        "latitude": 47.4839723,
+        "longitude": 7.7347783
+      },
+      "k\u00fcsnacht": {
+        "latitude": 47.3176276,
+        "longitude": 8.5830859
+      },
+      "frick": {
+        "latitude": 47.5075081,
+        "longitude": 8.0203065
+      },
+      "bubendorf": {
+        "latitude": 47.446684,
+        "longitude": 7.73535
+      },
+      "allschwil": {
+        "latitude": 47.5517277,
+        "longitude": 7.5361588
+      },
+      "b\u00fcren": {
+        "latitude": 47.1390542,
+        "longitude": 7.3740171
+      },
+      "burg_im_leimental": {
+        "latitude": 47.4578932,
+        "longitude": 7.4414641
+      },
+      "kilchberg": {
+        "latitude": 47.3225316,
+        "longitude": 8.5459483
+      },
+      "rohr": {
+        "latitude": 47.4013608,
+        "longitude": 8.0820154
+      }
+    }
+  },
+  "filters": [
+    "location",
+    "host",
+    "authors"
+  ],
+  "maintainer": [
+    "Emma Hodcroft",
+    "https://neherlab.org/emma-hodcroft.html"
+  ],
+  "defaults": {
+    "layout": "rect",
+    "colorBy": "location",
+    "geoResolution": "location"
+  },
+  "updated": "19 Sep 2018",
+  "virus_count": 552,
+  "author_info": {
+    "Reist et al": {
+      "n": 566,
+      "title": "Campylobacter sequences",
+      "paper_url": ""
+    }
+  },
+  "annotations": {
+    "nrdA": {
+      "start": 29725,
+      "end": 32095,
+      "strand": 1
+    },
+    "thyX": {
+      "start": 33638,
+      "end": 34262,
+      "strand": -1
+    },
+    "pyrG": {
+      "start": 34381,
+      "end": 36013,
+      "strand": 1
+    },
+    "recJ": {
+      "start": 35999,
+      "end": 37571,
+      "strand": 1
+    },
+    "typA": {
+      "start": 57210,
+      "end": 59019,
+      "strand": -1
+    },
+    "trmU": {
+      "start": 68531,
+      "end": 69548,
+      "strand": -1
+    },
+    "fliY": {
+      "start": 73491,
+      "end": 74334,
+      "strand": -1
+    },
+    "lctP": {
+      "start": 87035,
+      "end": 88718,
+      "strand": -1
+    },
+    "cdtA": {
+      "start": 90263,
+      "end": 91070,
+      "strand": -1
+    },
+    "cydA": {
+      "start": 91416,
+      "end": 92979,
+      "strand": 1
+    },
+    "dcuA": {
+      "start": 97495,
+      "end": 98833,
+      "strand": 1
+    },
+    "birA": {
+      "start": 107663,
+      "end": 108317,
+      "strand": 1
+    },
+    "atpF": {
+      "start": 110437,
+      "end": 110950,
+      "strand": 1
+    },
+    "atpH": {
+      "start": 110952,
+      "end": 111474,
+      "strand": 1
+    },
+    "atpG": {
+      "start": 113001,
+      "end": 113886,
+      "strand": 1
+    },
+    "exbB3": {
+      "start": 115701,
+      "end": 116256,
+      "strand": 1
+    },
+    "pfs": {
+      "start": 121679,
+      "end": 122369,
+      "strand": 1
+    },
+    "rpmE": {
+      "start": 158138,
+      "end": 158339,
+      "strand": -1
+    },
+    "ubiA": {
+      "start": 163206,
+      "end": 164091,
+      "strand": -1
+    },
+    "miaA": {
+      "start": 164161,
+      "end": 165031,
+      "strand": 1
+    },
+    "cfbpC": {
+      "start": 169053,
+      "end": 169962,
+      "strand": -1
+    },
+    "exbB1": {
+      "start": 176042,
+      "end": 176804,
+      "strand": 1
+    },
+    "tonB1": {
+      "start": 177202,
+      "end": 177949,
+      "strand": 1
+    },
+    "infC": {
+      "start": 204045,
+      "end": 204564,
+      "strand": 1
+    },
+    "pyrE": {
+      "start": 216863,
+      "end": 217472,
+      "strand": -1
+    },
+    "frr": {
+      "start": 217474,
+      "end": 218038,
+      "strand": -1
+    },
+    "cynT": {
+      "start": 219377,
+      "end": 220013,
+      "strand": 1
+    },
+    "mreB": {
+      "start": 253048,
+      "end": 254089,
+      "strand": 1
+    },
+    "carB": {
+      "start": 255088,
+      "end": 258358,
+      "strand": 1
+    },
+    "tal": {
+      "start": 258777,
+      "end": 259755,
+      "strand": -1
+    },
+    "cheA": {
+      "start": 260903,
+      "end": 263213,
+      "strand": -1
+    },
+    "greA": {
+      "start": 264933,
+      "end": 265419,
+      "strand": -1
+    },
+    "panD": {
+      "start": 271040,
+      "end": 271421,
+      "strand": -1
+    },
+    "modA": {
+      "start": 276124,
+      "end": 276874,
+      "strand": -1
+    },
+    "bioA": {
+      "start": 279425,
+      "end": 280709,
+      "strand": 1
+    },
+    "bioD": {
+      "start": 280695,
+      "end": 281301,
+      "strand": -1
+    },
+    "lysA": {
+      "start": 284282,
+      "end": 285491,
+      "strand": 1
+    },
+    "pheA": {
+      "start": 286247,
+      "end": 287321,
+      "strand": 1
+    },
+    "hisC": {
+      "start": 287310,
+      "end": 288405,
+      "strand": 1
+    },
+    "serC": {
+      "start": 297462,
+      "end": 298539,
+      "strand": 1
+    },
+    "ndk": {
+      "start": 301365,
+      "end": 301779,
+      "strand": -1
+    },
+    "fdxA": {
+      "start": 301891,
+      "end": 302176,
+      "strand": -1
+    },
+    "motB": {
+      "start": 304191,
+      "end": 304935,
+      "strand": -1
+    },
+    "fliN": {
+      "start": 321241,
+      "end": 321550,
+      "strand": 1
+    },
+    "fdxB": {
+      "start": 323804,
+      "end": 324050,
+      "strand": -1
+    },
+    "cmeA": {
+      "start": 335717,
+      "end": 336821,
+      "strand": -1
+    },
+    "ribH": {
+      "start": 349138,
+      "end": 349603,
+      "strand": -1
+    },
+    "pyk": {
+      "start": 358749,
+      "end": 360192,
+      "strand": -1
+    },
+    "fur": {
+      "start": 365242,
+      "end": 365716,
+      "strand": 1
+    },
+    "lgt": {
+      "start": 371703,
+      "end": 372519,
+      "strand": 1
+    },
+    "frdC": {
+      "start": 372588,
+      "end": 373371,
+      "strand": 1
+    },
+    "mraY": {
+      "start": 401143,
+      "end": 402205,
+      "strand": -1
+    },
+    "nusG": {
+      "start": 436113,
+      "end": 436647,
+      "strand": 1
+    },
+    "rplK": {
+      "start": 436672,
+      "end": 437098,
+      "strand": 1
+    },
+    "rplJ": {
+      "start": 438005,
+      "end": 438485,
+      "strand": 1
+    },
+    "dapA": {
+      "start": 758700,
+      "end": 759597,
+      "strand": 1
+    },
+    "uxaA'": {
+      "start": 449861,
+      "end": 451034,
+      "strand": 1
+    },
+    "ald'": {
+      "start": 455717,
+      "end": 456899,
+      "strand": 1
+    },
+    "rpsL": {
+      "start": 457226,
+      "end": 457613,
+      "strand": 1
+    },
+    "fusA": {
+      "start": 458165,
+      "end": 460241,
+      "strand": 1
+    },
+    "icd": {
+      "start": 494076,
+      "end": 496281,
+      "strand": 1
+    },
+    "sucC": {
+      "start": 497180,
+      "end": 498344,
+      "strand": 1
+    },
+    "hemA": {
+      "start": 503929,
+      "end": 505228,
+      "strand": 1
+    },
+    "proA": {
+      "start": 520238,
+      "end": 521471,
+      "strand": -1
+    },
+    "dnaB": {
+      "start": 525116,
+      "end": 526493,
+      "strand": 1
+    },
+    "ribA": {
+      "start": 1145871,
+      "end": 1146483,
+      "strand": -1
+    },
+    "ilvI": {
+      "start": 534864,
+      "end": 536565,
+      "strand": 1
+    },
+    "tatC": {
+      "start": 538997,
+      "end": 539735,
+      "strand": -1
+    },
+    "nudH": {
+      "start": 541370,
+      "end": 541841,
+      "strand": 1
+    },
+    "lysC": {
+      "start": 541842,
+      "end": 543045,
+      "strand": 1
+    },
+    "pstS": {
+      "start": 573223,
+      "end": 574219,
+      "strand": 1
+    },
+    "pstC": {
+      "start": 574228,
+      "end": 575143,
+      "strand": 1
+    },
+    "pstA": {
+      "start": 575139,
+      "end": 576228,
+      "strand": 1
+    },
+    "hypF": {
+      "start": 581826,
+      "end": 584016,
+      "strand": 1
+    },
+    "mrsA": {
+      "start": 598842,
+      "end": 599340,
+      "strand": -1
+    },
+    "era": {
+      "start": 618205,
+      "end": 619081,
+      "strand": -1
+    },
+    "hslV": {
+      "start": 620393,
+      "end": 620936,
+      "strand": -1
+    },
+    "flgH": {
+      "start": 641101,
+      "end": 641800,
+      "strand": -1
+    },
+    "ftsZ": {
+      "start": 653933,
+      "end": 655046,
+      "strand": 1
+    },
+    "glyQ": {
+      "start": 661531,
+      "end": 662395,
+      "strand": 1
+    },
+    "aspB": {
+      "start": 712796,
+      "end": 713966,
+      "strand": -1
+    },
+    "speA": {
+      "start": 714776,
+      "end": 716612,
+      "strand": -1
+    },
+    "tmk": {
+      "start": 717831,
+      "end": 718410,
+      "strand": -1
+    },
+    "coaD": {
+      "start": 718400,
+      "end": 718877,
+      "strand": -1
+    },
+    "tpx": {
+      "start": 731404,
+      "end": 731932,
+      "strand": 1
+    },
+    "napG": {
+      "start": 734970,
+      "end": 735711,
+      "strand": 1
+    },
+    "ruvA": {
+      "start": 749306,
+      "end": 749858,
+      "strand": -1
+    },
+    "msbA": {
+      "start": 754628,
+      "end": 756371,
+      "strand": 1
+    },
+    "glnH": {
+      "start": 766691,
+      "end": 767462,
+      "strand": 1
+    },
+    "fliP": {
+      "start": 768028,
+      "end": 768763,
+      "strand": -1
+    },
+    "acnB": {
+      "start": 782128,
+      "end": 784675,
+      "strand": -1
+    },
+    "pabB": {
+      "start": 807496,
+      "end": 809281,
+      "strand": -1
+    },
+    "serA": {
+      "start": 830134,
+      "end": 831718,
+      "strand": -1
+    },
+    "ispH": {
+      "start": 834004,
+      "end": 834838,
+      "strand": -1
+    },
+    "pheS": {
+      "start": 838428,
+      "end": 839421,
+      "strand": -1
+    },
+    "cstA": {
+      "start": 852358,
+      "end": 854470,
+      "strand": -1
+    },
+    "pebC": {
+      "start": 857898,
+      "end": 858627,
+      "strand": -1
+    },
+    "cheR": {
+      "start": 858762,
+      "end": 859551,
+      "strand": -1
+    },
+    "argH": {
+      "start": 864785,
+      "end": 866168,
+      "strand": -1
+    },
+    "glnP": {
+      "start": 878827,
+      "end": 879613,
+      "strand": -1
+    },
+    "purL": {
+      "start": 894779,
+      "end": 896966,
+      "strand": -1
+    },
+    "cjaB": {
+      "start": 914280,
+      "end": 915528,
+      "strand": -1
+    },
+    "argF": {
+      "start": 925251,
+      "end": 926172,
+      "strand": -1
+    },
+    "livH": {
+      "start": 949843,
+      "end": 950740,
+      "strand": -1
+    },
+    "cmeE": {
+      "start": 964749,
+      "end": 965490,
+      "strand": 1
+    },
+    "ate": {
+      "start": 969340,
+      "end": 970060,
+      "strand": -1
+    },
+    "murG": {
+      "start": 973059,
+      "end": 974088,
+      "strand": 1
+    },
+    "dapE": {
+      "start": 980553,
+      "end": 981651,
+      "strand": -1
+    },
+    "mutS": {
+      "start": 987018,
+      "end": 989229,
+      "strand": -1
+    },
+    "guaB": {
+      "start": 993847,
+      "end": 995305,
+      "strand": -1
+    },
+    "gatA": {
+      "start": 995314,
+      "end": 996676,
+      "strand": -1
+    },
+    "proC": {
+      "start": 1010009,
+      "end": 1010741,
+      "strand": 1
+    },
+    "ctsT": {
+      "start": 1010737,
+      "end": 1011040,
+      "strand": 1
+    },
+    "thiD": {
+      "start": 1013373,
+      "end": 1014186,
+      "strand": -1
+    },
+    "leuS": {
+      "start": 1022825,
+      "end": 1025255,
+      "strand": -1
+    },
+    "metK": {
+      "start": 1029615,
+      "end": 1030812,
+      "strand": -1
+    },
+    "ispE": {
+      "start": 1038333,
+      "end": 1039101,
+      "strand": 1
+    },
+    "ftsH": {
+      "start": 1047822,
+      "end": 1049760,
+      "strand": -1
+    },
+    "pglE": {
+      "start": 1053803,
+      "end": 1054964,
+      "strand": -1
+    },
+    "pglD": {
+      "start": 1055669,
+      "end": 1056257,
+      "strand": -1
+    },
+    "pglA": {
+      "start": 1056838,
+      "end": 1057969,
+      "strand": -1
+    },
+    "pglH": {
+      "start": 1062130,
+      "end": 1063210,
+      "strand": -1
+    },
+    "htrB": {
+      "start": 1067816,
+      "end": 1068704,
+      "strand": 1
+    },
+    "neuC1": {
+      "start": 1076477,
+      "end": 1077593,
+      "strand": 1
+    },
+    "dnaX": {
+      "start": 1089674,
+      "end": 1091204,
+      "strand": 1
+    },
+    "ppi": {
+      "start": 1100191,
+      "end": 1100674,
+      "strand": -1
+    },
+    "tatA": {
+      "start": 1103770,
+      "end": 1104010,
+      "strand": -1
+    },
+    "petC": {
+      "start": 1110989,
+      "end": 1112114,
+      "strand": -1
+    },
+    "dctA": {
+      "start": 1119967,
+      "end": 1121344,
+      "strand": 1
+    },
+    "luxS": {
+      "start": 1127436,
+      "end": 1127931,
+      "strand": 1
+    },
+    "radA": {
+      "start": 1134108,
+      "end": 1135449,
+      "strand": -1
+    },
+    "rbn": {
+      "start": 1140823,
+      "end": 1141630,
+      "strand": -1
+    },
+    "htrA": {
+      "start": 1156260,
+      "end": 1157679,
+      "strand": -1
+    },
+    "kefB": {
+      "start": 1159167,
+      "end": 1160793,
+      "strand": 1
+    },
+    "glyS": {
+      "start": 1161807,
+      "end": 1163802,
+      "strand": 1
+    },
+    "pdxJ": {
+      "start": 1166593,
+      "end": 1167367,
+      "strand": 1
+    },
+    "guaA": {
+      "start": 1176465,
+      "end": 1178001,
+      "strand": 1
+    },
+    "hydA": {
+      "start": 1197213,
+      "end": 1198353,
+      "strand": -1
+    },
+    "spoT": {
+      "start": 1204595,
+      "end": 1206791,
+      "strand": -1
+    },
+    "ktrB": {
+      "start": 1215455,
+      "end": 1216799,
+      "strand": 1
+    },
+    "ktrA": {
+      "start": 1216809,
+      "end": 1217460,
+      "strand": 1
+    },
+    "acpP3": {
+      "start": 1234056,
+      "end": 1234278,
+      "strand": 1
+    },
+    "hisF": {
+      "start": 1530941,
+      "end": 1531709,
+      "strand": 1
+    },
+    "hisH": {
+      "start": 1528684,
+      "end": 1529272,
+      "strand": 1
+    },
+    "maf7": {
+      "start": 1274693,
+      "end": 1275935,
+      "strand": -1
+    },
+    "pldA": {
+      "start": 1282932,
+      "end": 1283922,
+      "strand": 1
+    },
+    "ceuD": {
+      "start": 1285903,
+      "end": 1286659,
+      "strand": 1
+    },
+    "ceuE": {
+      "start": 1286671,
+      "end": 1287664,
+      "strand": 1
+    },
+    "nrfH": {
+      "start": 1290426,
+      "end": 1290942,
+      "strand": -1
+    },
+    "metC'": {
+      "start": 1327235,
+      "end": 1328282,
+      "strand": 1
+    },
+    "hydA2": {
+      "start": 1333148,
+      "end": 1334642,
+      "strand": -1
+    },
+    "pgk": {
+      "start": 1336141,
+      "end": 1337344,
+      "strand": -1
+    },
+    "gapA": {
+      "start": 1337346,
+      "end": 1338345,
+      "strand": -1
+    },
+    "fliL": {
+      "start": 1341249,
+      "end": 1341786,
+      "strand": 1
+    },
+    "hddA": {
+      "start": 1359281,
+      "end": 1360301,
+      "strand": -1
+    },
+    "fcl": {
+      "start": 1362155,
+      "end": 1363196,
+      "strand": -1
+    },
+    "kfiD": {
+      "start": 1379715,
+      "end": 1380897,
+      "strand": -1
+    },
+    "kpsE": {
+      "start": 1385145,
+      "end": 1386264,
+      "strand": -1
+    },
+    "kpsT": {
+      "start": 1386263,
+      "end": 1386926,
+      "strand": -1
+    },
+    "dut": {
+      "start": 1388858,
+      "end": 1389548,
+      "strand": 1
+    },
+    "truD": {
+      "start": 1394284,
+      "end": 1395403,
+      "strand": -1
+    },
+    "cadF": {
+      "start": 1413912,
+      "end": 1414872,
+      "strand": -1
+    },
+    "rpsI": {
+      "start": 1414996,
+      "end": 1415386,
+      "strand": -1
+    },
+    "rplM": {
+      "start": 1415388,
+      "end": 1415814,
+      "strand": -1
+    },
+    "ccoP": {
+      "start": 1422445,
+      "end": 1423309,
+      "strand": -1
+    },
+    "carA": {
+      "start": 1428393,
+      "end": 1429512,
+      "strand": -1
+    },
+    "putP": {
+      "start": 1434061,
+      "end": 1435549,
+      "strand": -1
+    },
+    "putA": {
+      "start": 1435548,
+      "end": 1439037,
+      "strand": -1
+    },
+    "fdhD": {
+      "start": 1443824,
+      "end": 1444607,
+      "strand": -1
+    },
+    "fdhC": {
+      "start": 1444773,
+      "end": 1445706,
+      "strand": -1
+    },
+    "moaD": {
+      "start": 1453142,
+      "end": 1453364,
+      "strand": 1
+    },
+    "acs": {
+      "start": 1468408,
+      "end": 1470382,
+      "strand": -1
+    },
+    "hsdR": {
+      "start": 1479389,
+      "end": 1482485,
+      "strand": -1
+    },
+    "rloH": {
+      "start": 1482487,
+      "end": 1484254,
+      "strand": -1
+    },
+    "mloB": {
+      "start": 1485625,
+      "end": 1487092,
+      "strand": -1
+    },
+    "nuoH": {
+      "start": 1502539,
+      "end": 1503538,
+      "strand": -1
+    },
+    "rpmJ": {
+      "start": 1522346,
+      "end": 1522460,
+      "strand": 1
+    },
+    "rplQ": {
+      "start": 1524913,
+      "end": 1525267,
+      "strand": 1
+    },
+    "hisG": {
+      "start": 1525439,
+      "end": 1526339,
+      "strand": 1
+    },
+    "mrp": {
+      "start": 1533544,
+      "end": 1534651,
+      "strand": -1
+    },
+    "chuA": {
+      "start": 1540806,
+      "end": 1542936,
+      "strand": 1
+    },
+    "chuB": {
+      "start": 1542910,
+      "end": 1543897,
+      "strand": 1
+    },
+    "mutY": {
+      "start": 1547740,
+      "end": 1548760,
+      "strand": -1
+    },
+    "exbB2": {
+      "start": 1556024,
+      "end": 1556450,
+      "strand": 1
+    },
+    "aroC": {
+      "start": 1559722,
+      "end": 1560811,
+      "strand": -1
+    },
+    "iamA": {
+      "start": 1572199,
+      "end": 1572922,
+      "strand": 1
+    },
+    "murI": {
+      "start": 1576098,
+      "end": 1576851,
+      "strand": -1
+    },
+    "nhaA1": {
+      "start": 1578485,
+      "end": 1579634,
+      "strand": -1
+    },
+    "p19": {
+      "start": 1582922,
+      "end": 1583462,
+      "strand": 1
+    },
+    "murB": {
+      "start": 1596039,
+      "end": 1596816,
+      "strand": 1
+    },
+    "cysQ": {
+      "start": 1603138,
+      "end": 1603903,
+      "strand": -1
+    },
+    "topA": {
+      "start": 1607359,
+      "end": 1609462,
+      "strand": -1
+    },
+    "rpsE": {
+      "start": 1612617,
+      "end": 1613061,
+      "strand": -1
+    },
+    "rplR": {
+      "start": 1613072,
+      "end": 1613429,
+      "strand": -1
+    },
+    "rpsH": {
+      "start": 1614053,
+      "end": 1614449,
+      "strand": -1
+    },
+    "rpsC": {
+      "start": 1616656,
+      "end": 1617358,
+      "strand": -1
+    },
+    "rplV": {
+      "start": 1617357,
+      "end": 1617783,
+      "strand": -1
+    },
+    "leuD": {
+      "start": 1627316,
+      "end": 1627919,
+      "strand": -1
+    },
+    "leuA": {
+      "start": 1630392,
+      "end": 1631928,
+      "strand": -1
+    },
+    "ruvC": {
+      "start": 1640903,
+      "end": 1641386,
+      "strand": -1
+    },
+    "nuc": {
+      "start": 0,
+      "end": 1641481,
+      "strand": 1
+    }
+  },
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}
