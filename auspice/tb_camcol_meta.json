@@ -1,0 +1,1298 @@
+{
+  "title": "Campylobacter coli in Basel region",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "eryth_resist": {
+      "menuItem": "Eryth Resistance",
+      "legendTitle": "Eryth Resistance",
+      "type": "discrete",
+      "key": "eryth_resist"
+    },
+    "material": {
+      "type": "discrete",
+      "legendTitle": "material",
+      "menuItem": "material",
+      "key": "material"
+    },
+    "cipro_resist": {
+      "menuItem": "Cipro Resistance",
+      "legendTitle": "Cipro Resistance",
+      "type": "discrete",
+      "key": "cipro_resist"
+    },
+    "location": {
+      "type": "discrete",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "key": "location"
+    },
+    "host": {
+      "type": "discrete",
+      "legendTitle": "host",
+      "menuItem": "host",
+      "key": "host"
+    },
+    "country": {
+      "legendTitle": "country",
+      "menuItem": "country",
+      "key": "country",
+      "color_map": [
+        [
+          "spain",
+          "#4274CE"
+        ],
+        [
+          "france",
+          "#00cbff"
+        ],
+        [
+          "switzerland",
+          "#ff007f"
+        ],
+        [
+          "usa",
+          "#df372c"
+        ],
+        [
+          "germany",
+          "#ffff00"
+        ]
+      ]
+    }
+  },
+  "geo": {
+    "location": {
+      "m\u00fcnchenstein": {
+        "latitude": 47.5187909,
+        "longitude": 7.6174515
+      },
+      "rheinfelden": {
+        "latitude": 47.5543859,
+        "longitude": 7.7922905
+      },
+      "b\u00fcsserach": {
+        "latitude": 47.3915791,
+        "longitude": 7.5405238
+      },
+      "pottsville": {
+        "latitude": 40.6851324,
+        "longitude": -76.1953701
+      },
+      "riehen": {
+        "latitude": 47.5816927,
+        "longitude": 7.6479737
+      },
+      "grenzach-wyhlen": {
+        "latitude": 47.5540691,
+        "longitude": 7.67687087177382
+      },
+      "binningen": {
+        "latitude": 47.53656,
+        "longitude": 7.570077
+      },
+      "basel": {
+        "latitude": 47.5581077,
+        "longitude": 7.5878261
+      },
+      "allschwil": {
+        "latitude": 47.5517277,
+        "longitude": 7.5361588
+      },
+      "reigoldswil": {
+        "latitude": 47.3974255,
+        "longitude": 7.6918178
+      },
+      "ettingen": {
+        "latitude": 47.4816164,
+        "longitude": 7.5441378
+      },
+      "weil_am_rhein": {
+        "latitude": 47.5932802,
+        "longitude": 7.6116133
+      },
+      "zell": {
+        "latitude": 47.448026,
+        "longitude": 8.8227739
+      },
+      "ormalingen": {
+        "latitude": 47.4696552,
+        "longitude": 7.8755353
+      },
+      "birsfelden": {
+        "latitude": 47.5542152,
+        "longitude": 7.6304739
+      },
+      "h\u00e9singue": {
+        "latitude": 47.5751587,
+        "longitude": 7.5186109
+      },
+      "oberwil": {
+        "latitude": 47.5136942,
+        "longitude": 7.5527853
+      },
+      "muttenz": {
+        "latitude": 47.525113,
+        "longitude": 7.6477401
+      },
+      "derendingen": {
+        "latitude": 47.1995305,
+        "longitude": 7.5859837
+      },
+      "courtepin": {
+        "latitude": 46.8646535,
+        "longitude": 7.12501542155265
+      },
+      "elche": {
+        "latitude": 38.2653181,
+        "longitude": -0.6988488
+      },
+      "zunzgen": {
+        "latitude": 47.4504005,
+        "longitude": 7.80462
+      },
+      "kandern": {
+        "latitude": 47.7124915,
+        "longitude": 7.6575863
+      },
+      "arisdorf": {
+        "latitude": 47.5123813,
+        "longitude": 7.7655082
+      },
+      "bienne": {
+        "latitude": 47.1402077,
+        "longitude": 7.2439029
+      }
+    }
+  },
+  "filters": [
+    "location",
+    "host",
+    "authors"
+  ],
+  "maintainer": [
+    "Emma Hodcroft",
+    "https://neherlab.org/emma-hodcroft.html"
+  ],
+  "defaults": {
+    "layout": "rect",
+    "colorBy": "location",
+    "geoResolution": "location"
+  },
+  "updated": "19 Sep 2018",
+  "virus_count": 116,
+  "author_info": {
+    "Reist et al": {
+      "n": 119,
+      "title": "Campylobacter sequences",
+      "paper_url": ""
+    }
+  },
+  "annotations": {
+    "actP": {
+      "start": 7290,
+      "end": 8937,
+      "strand": -1
+    },
+    "rrf": {
+      "start": 1309478,
+      "end": 1309595,
+      "strand": -1
+    },
+    "flgD": {
+      "start": 61339,
+      "end": 62203,
+      "strand": 1
+    },
+    "ffs": {
+      "start": 66630,
+      "end": 66728,
+      "strand": 1
+    },
+    "ssrA": {
+      "start": 413865,
+      "end": 414224,
+      "strand": 1
+    },
+    "livG": {
+      "start": 781913,
+      "end": 782684,
+      "strand": 1
+    },
+    "pnk": {
+      "start": 1115422,
+      "end": 1116283,
+      "strand": -1
+    },
+    "rnpB": {
+      "start": 1193090,
+      "end": 1193415,
+      "strand": 1
+    },
+    "oorC": {
+      "start": 1204432,
+      "end": 1204990,
+      "strand": -1
+    },
+    "oorD": {
+      "start": 1206966,
+      "end": 1207278,
+      "strand": -1
+    },
+    "nusA": {
+      "start": 1282477,
+      "end": 1283566,
+      "strand": -1
+    },
+    "frdB": {
+      "start": 1332217,
+      "end": 1332943,
+      "strand": -1
+    },
+    "glyA": {
+      "start": 1339817,
+      "end": 1341062,
+      "strand": -1
+    },
+    "prpE": {
+      "start": 1465509,
+      "end": 1467417,
+      "strand": -1
+    },
+    "ubiA": {
+      "start": 1548523,
+      "end": 1549408,
+      "strand": -1
+    },
+    "tolB": {
+      "start": 1609756,
+      "end": 1610968,
+      "strand": -1
+    },
+    "rpsN": {
+      "start": 1643056,
+      "end": 1643242,
+      "strand": -1
+    },
+    "G157RS00030": {
+      "start": 6474,
+      "end": 6606,
+      "strand": 1
+    },
+    "G157RS00065": {
+      "start": 16904,
+      "end": 17480,
+      "strand": -1
+    },
+    "G157RS00130": {
+      "start": 31728,
+      "end": 33363,
+      "strand": 1
+    },
+    "G157RS00180": {
+      "start": 50247,
+      "end": 52392,
+      "strand": 1
+    },
+    "G157RS00230": {
+      "start": 62206,
+      "end": 63844,
+      "strand": 1
+    },
+    "G157RS00250": {
+      "start": 68718,
+      "end": 69735,
+      "strand": -1
+    },
+    "G157RS00280": {
+      "start": 73840,
+      "end": 74158,
+      "strand": -1
+    },
+    "G157RS00330": {
+      "start": 80848,
+      "end": 82279,
+      "strand": -1
+    },
+    "G157RS00335": {
+      "start": 82279,
+      "end": 82762,
+      "strand": -1
+    },
+    "G157RS00410": {
+      "start": 96475,
+      "end": 97099,
+      "strand": -1
+    },
+    "G157RS00455": {
+      "start": 105190,
+      "end": 105499,
+      "strand": 1
+    },
+    "G157RS00475": {
+      "start": 107431,
+      "end": 107920,
+      "strand": -1
+    },
+    "G157RS00500": {
+      "start": 112442,
+      "end": 112982,
+      "strand": -1
+    },
+    "G157RS00515": {
+      "start": 115533,
+      "end": 116682,
+      "strand": 1
+    },
+    "G157RS00635": {
+      "start": 137451,
+      "end": 138366,
+      "strand": 1
+    },
+    "G157RS00640": {
+      "start": 138329,
+      "end": 139181,
+      "strand": 1
+    },
+    "G157RS00680": {
+      "start": 146241,
+      "end": 146979,
+      "strand": 1
+    },
+    "G157RS00725": {
+      "start": 154231,
+      "end": 154319,
+      "strand": -1
+    },
+    "G157RS00780": {
+      "start": 160336,
+      "end": 161143,
+      "strand": -1
+    },
+    "G157RS00795": {
+      "start": 162876,
+      "end": 164991,
+      "strand": -1
+    },
+    "G157RS00820": {
+      "start": 167913,
+      "end": 169074,
+      "strand": -1
+    },
+    "G157RS00890": {
+      "start": 181192,
+      "end": 181546,
+      "strand": -1
+    },
+    "G157RS00910": {
+      "start": 183634,
+      "end": 184000,
+      "strand": -1
+    },
+    "G157RS00935": {
+      "start": 185936,
+      "end": 186200,
+      "strand": -1
+    },
+    "G157RS00945": {
+      "start": 186748,
+      "end": 187357,
+      "strand": -1
+    },
+    "G157RS00960": {
+      "start": 188962,
+      "end": 189397,
+      "strand": -1
+    },
+    "G157RS00980": {
+      "start": 192913,
+      "end": 193387,
+      "strand": 1
+    },
+    "G157RS00995": {
+      "start": 196826,
+      "end": 198422,
+      "strand": 1
+    },
+    "G157RS01005": {
+      "start": 199359,
+      "end": 200148,
+      "strand": 1
+    },
+    "G157RS01045": {
+      "start": 204744,
+      "end": 205437,
+      "strand": 1
+    },
+    "G157RS01050": {
+      "start": 205433,
+      "end": 207896,
+      "strand": 1
+    },
+    "G157RS01055": {
+      "start": 207888,
+      "end": 208887,
+      "strand": 1
+    },
+    "G157RS01065": {
+      "start": 209558,
+      "end": 210074,
+      "strand": 1
+    },
+    "G157RS01110": {
+      "start": 220916,
+      "end": 221864,
+      "strand": -1
+    },
+    "G157RS01120": {
+      "start": 223424,
+      "end": 223934,
+      "strand": 1
+    },
+    "G157RS01130": {
+      "start": 225315,
+      "end": 225918,
+      "strand": -1
+    },
+    "G157RS01165": {
+      "start": 235737,
+      "end": 236190,
+      "strand": -1
+    },
+    "G157RS01180": {
+      "start": 238234,
+      "end": 239134,
+      "strand": 1
+    },
+    "G157RS01335": {
+      "start": 266217,
+      "end": 266409,
+      "strand": 1
+    },
+    "G157RS01345": {
+      "start": 266999,
+      "end": 269213,
+      "strand": 1
+    },
+    "G157RS01410": {
+      "start": 283420,
+      "end": 284671,
+      "strand": 1
+    },
+    "G157RS01440": {
+      "start": 288022,
+      "end": 289237,
+      "strand": 1
+    },
+    "G157RS01445": {
+      "start": 289240,
+      "end": 289909,
+      "strand": 1
+    },
+    "G157RS01490": {
+      "start": 297095,
+      "end": 299858,
+      "strand": 1
+    },
+    "G157RS01510": {
+      "start": 302632,
+      "end": 303022,
+      "strand": 1
+    },
+    "G157RS01610": {
+      "start": 321857,
+      "end": 322679,
+      "strand": 1
+    },
+    "G157RS01665": {
+      "start": 331117,
+      "end": 331780,
+      "strand": 1
+    },
+    "G157RS01725": {
+      "start": 346374,
+      "end": 347307,
+      "strand": 1
+    },
+    "G157RS01745": {
+      "start": 351801,
+      "end": 353805,
+      "strand": 1
+    },
+    "G157RS01765": {
+      "start": 358130,
+      "end": 359429,
+      "strand": 1
+    },
+    "G157RS01780": {
+      "start": 361642,
+      "end": 363670,
+      "strand": 1
+    },
+    "G157RS01790": {
+      "start": 364918,
+      "end": 366040,
+      "strand": 1
+    },
+    "G157RS01850": {
+      "start": 374655,
+      "end": 375483,
+      "strand": 1
+    },
+    "G157RS01875": {
+      "start": 380471,
+      "end": 381839,
+      "strand": -1
+    },
+    "G157RS01885": {
+      "start": 383024,
+      "end": 384464,
+      "strand": -1
+    },
+    "G157RS02080": {
+      "start": 426701,
+      "end": 427697,
+      "strand": -1
+    },
+    "G157RS02100": {
+      "start": 429988,
+      "end": 430714,
+      "strand": 1
+    },
+    "G157RS02135": {
+      "start": 437896,
+      "end": 439618,
+      "strand": 1
+    },
+    "G157RS02225": {
+      "start": 459889,
+      "end": 460636,
+      "strand": 1
+    },
+    "G157RS02305": {
+      "start": 474080,
+      "end": 474974,
+      "strand": -1
+    },
+    "G157RS02330": {
+      "start": 478450,
+      "end": 479455,
+      "strand": -1
+    },
+    "G157RS02500": {
+      "start": 507091,
+      "end": 507724,
+      "strand": -1
+    },
+    "G157RS02540": {
+      "start": 514355,
+      "end": 514811,
+      "strand": -1
+    },
+    "G157RS02545": {
+      "start": 514864,
+      "end": 516049,
+      "strand": 1
+    },
+    "G157RS02595": {
+      "start": 525671,
+      "end": 526229,
+      "strand": 1
+    },
+    "G157RS02630": {
+      "start": 533180,
+      "end": 534203,
+      "strand": -1
+    },
+    "G157RS02655": {
+      "start": 537423,
+      "end": 538401,
+      "strand": 1
+    },
+    "G157RS02725": {
+      "start": 551078,
+      "end": 552626,
+      "strand": 1
+    },
+    "G157RS02850": {
+      "start": 574954,
+      "end": 576508,
+      "strand": -1
+    },
+    "G157RS02915": {
+      "start": 587263,
+      "end": 588034,
+      "strand": -1
+    },
+    "G157RS02940": {
+      "start": 592291,
+      "end": 593473,
+      "strand": 1
+    },
+    "G157RS02990": {
+      "start": 603896,
+      "end": 605147,
+      "strand": 1
+    },
+    "G157RS03030": {
+      "start": 612543,
+      "end": 613161,
+      "strand": 1
+    },
+    "G157RS03050": {
+      "start": 615330,
+      "end": 615672,
+      "strand": -1
+    },
+    "G157RS03095": {
+      "start": 621840,
+      "end": 622110,
+      "strand": 1
+    },
+    "G157RS03110": {
+      "start": 623318,
+      "end": 625442,
+      "strand": 1
+    },
+    "G157RS03115": {
+      "start": 625453,
+      "end": 627010,
+      "strand": -1
+    },
+    "G157RS03170": {
+      "start": 636591,
+      "end": 637413,
+      "strand": 1
+    },
+    "G157RS03205": {
+      "start": 644427,
+      "end": 645249,
+      "strand": 1
+    },
+    "G157RS03220": {
+      "start": 648103,
+      "end": 649021,
+      "strand": 1
+    },
+    "G157RS03255": {
+      "start": 656165,
+      "end": 657194,
+      "strand": -1
+    },
+    "G157RS03290": {
+      "start": 663870,
+      "end": 666015,
+      "strand": 1
+    },
+    "G157RS03440": {
+      "start": 694296,
+      "end": 695616,
+      "strand": -1
+    },
+    "G157RS03450": {
+      "start": 695853,
+      "end": 697434,
+      "strand": 1
+    },
+    "G157RS03490": {
+      "start": 705120,
+      "end": 708057,
+      "strand": 1
+    },
+    "G157RS03520": {
+      "start": 711535,
+      "end": 711988,
+      "strand": -1
+    },
+    "G157RS03540": {
+      "start": 713684,
+      "end": 714074,
+      "strand": -1
+    },
+    "G157RS03565": {
+      "start": 718160,
+      "end": 718538,
+      "strand": -1
+    },
+    "G157RS03605": {
+      "start": 725093,
+      "end": 725438,
+      "strand": -1
+    },
+    "G157RS03620": {
+      "start": 729496,
+      "end": 730864,
+      "strand": 1
+    },
+    "G157RS03750": {
+      "start": 756619,
+      "end": 757636,
+      "strand": -1
+    },
+    "G157RS03755": {
+      "start": 757632,
+      "end": 758796,
+      "strand": -1
+    },
+    "G157RS03780": {
+      "start": 762159,
+      "end": 765177,
+      "strand": -1
+    },
+    "G157RS03785": {
+      "start": 765179,
+      "end": 765920,
+      "strand": -1
+    },
+    "G157RS03835": {
+      "start": 776432,
+      "end": 776939,
+      "strand": 1
+    },
+    "G157RS03940": {
+      "start": 798720,
+      "end": 800325,
+      "strand": 1
+    },
+    "G157RS03955": {
+      "start": 801410,
+      "end": 801920,
+      "strand": 1
+    },
+    "G157RS03985": {
+      "start": 807240,
+      "end": 807801,
+      "strand": -1
+    },
+    "G157RS04035": {
+      "start": 816167,
+      "end": 817007,
+      "strand": 1
+    },
+    "G157RS04115": {
+      "start": 833543,
+      "end": 834995,
+      "strand": -1
+    },
+    "G157RS04125": {
+      "start": 835689,
+      "end": 836238,
+      "strand": -1
+    },
+    "G157RS04145": {
+      "start": 837739,
+      "end": 838528,
+      "strand": 1
+    },
+    "G157RS04155": {
+      "start": 839443,
+      "end": 840223,
+      "strand": 1
+    },
+    "G157RS04190": {
+      "start": 845876,
+      "end": 847751,
+      "strand": 1
+    },
+    "G157RS04205": {
+      "start": 849118,
+      "end": 849673,
+      "strand": -1
+    },
+    "G157RS04225": {
+      "start": 851279,
+      "end": 852257,
+      "strand": 1
+    },
+    "G157RS04415": {
+      "start": 892866,
+      "end": 893886,
+      "strand": -1
+    },
+    "G157RS04425": {
+      "start": 894807,
+      "end": 896076,
+      "strand": 1
+    },
+    "G157RS04490": {
+      "start": 903074,
+      "end": 903584,
+      "strand": 1
+    },
+    "G157RS04505": {
+      "start": 905687,
+      "end": 907052,
+      "strand": 1
+    },
+    "G157RS04660": {
+      "start": 934784,
+      "end": 935132,
+      "strand": 1
+    },
+    "G157RS04665": {
+      "start": 935128,
+      "end": 936403,
+      "strand": 1
+    },
+    "G157RS04670": {
+      "start": 936399,
+      "end": 936705,
+      "strand": 1
+    },
+    "G157RS04675": {
+      "start": 936694,
+      "end": 937198,
+      "strand": 1
+    },
+    "G157RS04780": {
+      "start": 959477,
+      "end": 959897,
+      "strand": 1
+    },
+    "G157RS04880": {
+      "start": 975957,
+      "end": 976737,
+      "strand": -1
+    },
+    "G157RS04885": {
+      "start": 976736,
+      "end": 977633,
+      "strand": -1
+    },
+    "G157RS04925": {
+      "start": 987050,
+      "end": 988091,
+      "strand": 1
+    },
+    "G157RS04935": {
+      "start": 988366,
+      "end": 989098,
+      "strand": 1
+    },
+    "G157RS04940": {
+      "start": 989091,
+      "end": 990519,
+      "strand": 1
+    },
+    "G157RS04970": {
+      "start": 997725,
+      "end": 997971,
+      "strand": -1
+    },
+    "G157RS05145": {
+      "start": 1033634,
+      "end": 1034333,
+      "strand": 1
+    },
+    "G157RS05350": {
+      "start": 1072488,
+      "end": 1073193,
+      "strand": -1
+    },
+    "G157RS05370": {
+      "start": 1077022,
+      "end": 1078135,
+      "strand": -1
+    },
+    "G157RS05385": {
+      "start": 1081176,
+      "end": 1082112,
+      "strand": 1
+    },
+    "G157RS05405": {
+      "start": 1084755,
+      "end": 1086258,
+      "strand": -1
+    },
+    "G157RS05450": {
+      "start": 1094793,
+      "end": 1096044,
+      "strand": -1
+    },
+    "G157RS05490": {
+      "start": 1101087,
+      "end": 1101963,
+      "strand": 1
+    },
+    "G157RS05545": {
+      "start": 1110627,
+      "end": 1111761,
+      "strand": -1
+    },
+    "G157RS05555": {
+      "start": 1112566,
+      "end": 1113811,
+      "strand": -1
+    },
+    "G157RS05635": {
+      "start": 1128513,
+      "end": 1129605,
+      "strand": -1
+    },
+    "G157RS05700": {
+      "start": 1143511,
+      "end": 1144888,
+      "strand": 1
+    },
+    "G157RS05740": {
+      "start": 1153814,
+      "end": 1155515,
+      "strand": 1
+    },
+    "G157RS05745": {
+      "start": 1155511,
+      "end": 1156180,
+      "strand": 1
+    },
+    "G157RS05895": {
+      "start": 1187375,
+      "end": 1188707,
+      "strand": -1
+    },
+    "G157RS05930": {
+      "start": 1194066,
+      "end": 1195980,
+      "strand": -1
+    },
+    "G157RS06025": {
+      "start": 1215141,
+      "end": 1216044,
+      "strand": 1
+    },
+    "G157RS06045": {
+      "start": 1217366,
+      "end": 1219172,
+      "strand": 1
+    },
+    "G157RS06095": {
+      "start": 1226725,
+      "end": 1227436,
+      "strand": -1
+    },
+    "G157RS06145": {
+      "start": 1240237,
+      "end": 1241149,
+      "strand": 1
+    },
+    "G157RS06165": {
+      "start": 1244231,
+      "end": 1245008,
+      "strand": -1
+    },
+    "G157RS06210": {
+      "start": 1252237,
+      "end": 1252555,
+      "strand": -1
+    },
+    "G157RS06295": {
+      "start": 1271787,
+      "end": 1271863,
+      "strand": -1
+    },
+    "G157RS06335": {
+      "start": 1274693,
+      "end": 1275350,
+      "strand": -1
+    },
+    "G157RS06350": {
+      "start": 1276732,
+      "end": 1277119,
+      "strand": 1
+    },
+    "G157RS06365": {
+      "start": 1280145,
+      "end": 1281192,
+      "strand": -1
+    },
+    "G157RS06385": {
+      "start": 1283929,
+      "end": 1285231,
+      "strand": 1
+    },
+    "G157RS06430": {
+      "start": 1291257,
+      "end": 1291473,
+      "strand": 1
+    },
+    "G157RS06490": {
+      "start": 1303423,
+      "end": 1303831,
+      "strand": -1
+    },
+    "G157RS06535": {
+      "start": 1313851,
+      "end": 1315369,
+      "strand": -1
+    },
+    "G157RS06545": {
+      "start": 1317549,
+      "end": 1318317,
+      "strand": -1
+    },
+    "G157RS06605": {
+      "start": 1325662,
+      "end": 1326235,
+      "strand": -1
+    },
+    "G157RS06625": {
+      "start": 1328181,
+      "end": 1330014,
+      "strand": -1
+    },
+    "G157RS06655": {
+      "start": 1336669,
+      "end": 1337575,
+      "strand": 1
+    },
+    "G157RS06665": {
+      "start": 1338435,
+      "end": 1339263,
+      "strand": -1
+    },
+    "G157RS06680": {
+      "start": 1341058,
+      "end": 1342567,
+      "strand": -1
+    },
+    "G157RS06755": {
+      "start": 1355444,
+      "end": 1356827,
+      "strand": -1
+    },
+    "G157RS06770": {
+      "start": 1358685,
+      "end": 1359150,
+      "strand": 1
+    },
+    "G157RS06795": {
+      "start": 1362114,
+      "end": 1362663,
+      "strand": 1
+    },
+    "G157RS06800": {
+      "start": 1362659,
+      "end": 1364372,
+      "strand": -1
+    },
+    "G157RS06825": {
+      "start": 1367103,
+      "end": 1368273,
+      "strand": -1
+    },
+    "G157RS06830": {
+      "start": 1368282,
+      "end": 1368888,
+      "strand": -1
+    },
+    "G157RS06845": {
+      "start": 1370811,
+      "end": 1371447,
+      "strand": 1
+    },
+    "G157RS06880": {
+      "start": 1379435,
+      "end": 1379906,
+      "strand": -1
+    },
+    "G157RS06960": {
+      "start": 1393329,
+      "end": 1394115,
+      "strand": 1
+    },
+    "G157RS06965": {
+      "start": 1394202,
+      "end": 1397025,
+      "strand": 1
+    },
+    "G157RS06970": {
+      "start": 1397026,
+      "end": 1397560,
+      "strand": 1
+    },
+    "G157RS06985": {
+      "start": 1398854,
+      "end": 1399298,
+      "strand": 1
+    },
+    "G157RS06990": {
+      "start": 1399361,
+      "end": 1402001,
+      "strand": 1
+    },
+    "G157RS07035": {
+      "start": 1406937,
+      "end": 1407924,
+      "strand": 1
+    },
+    "G157RS07105": {
+      "start": 1422465,
+      "end": 1423560,
+      "strand": -1
+    },
+    "G157RS07140": {
+      "start": 1428902,
+      "end": 1429241,
+      "strand": 1
+    },
+    "G157RS07160": {
+      "start": 1431269,
+      "end": 1431887,
+      "strand": -1
+    },
+    "G157RS09005": {
+      "start": 1444608,
+      "end": 1444794,
+      "strand": 1
+    },
+    "G157RS07255": {
+      "start": 1444989,
+      "end": 1445358,
+      "strand": 1
+    },
+    "G157RS07375": {
+      "start": 1469321,
+      "end": 1470362,
+      "strand": -1
+    },
+    "G157RS07410": {
+      "start": 1475027,
+      "end": 1475942,
+      "strand": 1
+    },
+    "G157RS07460": {
+      "start": 1483412,
+      "end": 1484960,
+      "strand": -1
+    },
+    "G157RS07530": {
+      "start": 1495212,
+      "end": 1497096,
+      "strand": -1
+    },
+    "G157RS07600": {
+      "start": 1506987,
+      "end": 1508016,
+      "strand": -1
+    },
+    "G157RS07660": {
+      "start": 1526241,
+      "end": 1527579,
+      "strand": 1
+    },
+    "G157RS07710": {
+      "start": 1537723,
+      "end": 1538974,
+      "strand": -1
+    },
+    "G157RS07720": {
+      "start": 1540193,
+      "end": 1541000,
+      "strand": -1
+    },
+    "G157RS07790": {
+      "start": 1549479,
+      "end": 1550349,
+      "strand": 1
+    },
+    "G157RS07850": {
+      "start": 1561189,
+      "end": 1561951,
+      "strand": 1
+    },
+    "G157RS07945": {
+      "start": 1577859,
+      "end": 1579245,
+      "strand": 1
+    },
+    "G157RS07995": {
+      "start": 1587310,
+      "end": 1587673,
+      "strand": -1
+    },
+    "G157RS08050": {
+      "start": 1598898,
+      "end": 1599348,
+      "strand": 1
+    },
+    "G157RS08190": {
+      "start": 1620098,
+      "end": 1620752,
+      "strand": -1
+    },
+    "G157RS08225": {
+      "start": 1624213,
+      "end": 1624290,
+      "strand": -1
+    },
+    "G157RS08230": {
+      "start": 1624294,
+      "end": 1624371,
+      "strand": -1
+    },
+    "G157RS08340": {
+      "start": 1642651,
+      "end": 1643047,
+      "strand": -1
+    },
+    "G157RS08350": {
+      "start": 1643243,
+      "end": 1643789,
+      "strand": -1
+    },
+    "G157RS08360": {
+      "start": 1644025,
+      "end": 1644394,
+      "strand": -1
+    },
+    "G157RS08385": {
+      "start": 1645955,
+      "end": 1646363,
+      "strand": -1
+    },
+    "G157RS08415": {
+      "start": 1648968,
+      "end": 1649280,
+      "strand": -1
+    },
+    "G157RS08470": {
+      "start": 1657172,
+      "end": 1657703,
+      "strand": 1
+    },
+    "G157RS08480": {
+      "start": 1658286,
+      "end": 1659693,
+      "strand": -1
+    },
+    "G157RS08495": {
+      "start": 1662640,
+      "end": 1663270,
+      "strand": 1
+    },
+    "G157RS08535": {
+      "start": 1668181,
+      "end": 1669453,
+      "strand": -1
+    },
+    "nuc": {
+      "start": 0,
+      "end": 1673221,
+      "strand": 1
+    }
+  },
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}
