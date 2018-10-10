@@ -17,7 +17,17 @@
       "menuItem": "Eryth Resistance",
       "legendTitle": "Eryth Resistance",
       "type": "discrete",
-      "key": "eryth_resist"
+      "key": "eryth_resist",
+      "color_map": [
+        [
+          "resistant",
+          "#ff0000"
+        ],
+        [
+          "susceptible",
+          "#009900"
+        ]
+      ]
     },
     "material": {
       "type": "discrete",
@@ -29,7 +39,17 @@
       "menuItem": "Cipro Resistance",
       "legendTitle": "Cipro Resistance",
       "type": "discrete",
-      "key": "cipro_resist"
+      "key": "cipro_resist",
+      "color_map": [
+        [
+          "resistant",
+          "#ff0000"
+        ],
+        [
+          "susceptible",
+          "#009900"
+        ]
+      ]
     },
     "location": {
       "type": "discrete",
@@ -44,106 +64,45 @@
       "key": "host"
     },
     "country": {
+      "type": "discrete",
       "legendTitle": "country",
       "menuItem": "country",
-      "key": "country",
-      "color_map": [
-        [
-          "spain",
-          "#4274CE"
-        ],
-        [
-          "france",
-          "#00cbff"
-        ],
-        [
-          "switzerland",
-          "#ff007f"
-        ],
-        [
-          "usa",
-          "#df372c"
-        ],
-        [
-          "germany",
-          "#ffff00"
-        ]
-      ]
+      "key": "country"
     }
   },
   "geo": {
     "location": {
-      "m\u00fcnchenstein": {
-        "latitude": 47.5187909,
-        "longitude": 7.6174515
-      },
-      "rheinfelden": {
-        "latitude": 47.5543859,
-        "longitude": 7.7922905
-      },
-      "b\u00fcsserach": {
-        "latitude": 47.3915791,
-        "longitude": 7.5405238
-      },
-      "pottsville": {
-        "latitude": 40.6851324,
-        "longitude": -76.1953701
+      "allschwil": {
+        "latitude": 47.5517277,
+        "longitude": 7.5361588
       },
       "riehen": {
         "latitude": 47.5816927,
         "longitude": 7.6479737
       },
-      "grenzach-wyhlen": {
-        "latitude": 47.5540691,
-        "longitude": 7.67687087177382
+      "rheinfelden": {
+        "latitude": 47.5543859,
+        "longitude": 7.7922905
       },
-      "binningen": {
-        "latitude": 47.53656,
-        "longitude": 7.570077
+      "elche": {
+        "latitude": 38.2653181,
+        "longitude": -0.6988488
       },
-      "basel": {
-        "latitude": 47.5581077,
-        "longitude": 7.5878261
-      },
-      "allschwil": {
-        "latitude": 47.5517277,
-        "longitude": 7.5361588
-      },
-      "reigoldswil": {
-        "latitude": 47.3974255,
-        "longitude": 7.6918178
-      },
-      "ettingen": {
-        "latitude": 47.4816164,
-        "longitude": 7.5441378
+      "arisdorf": {
+        "latitude": 47.5123813,
+        "longitude": 7.7655082
       },
       "weil_am_rhein": {
         "latitude": 47.5932802,
         "longitude": 7.6116133
       },
-      "zell": {
-        "latitude": 47.448026,
-        "longitude": 8.8227739
+      "kandern": {
+        "latitude": 47.7124915,
+        "longitude": 7.6575863
       },
-      "ormalingen": {
-        "latitude": 47.4696552,
-        "longitude": 7.8755353
-      },
-      "birsfelden": {
-        "latitude": 47.5542152,
-        "longitude": 7.6304739
-      },
-      "h\u00e9singue": {
-        "latitude": 47.5751587,
-        "longitude": 7.5186109
-      },
-      "oberwil": {
-        "latitude": 47.5136942,
-        "longitude": 7.5527853
-      },
-      "muttenz": {
-        "latitude": 47.525113,
-        "longitude": 7.6477401
+      "bienne": {
+        "latitude": 47.1402077,
+        "longitude": 7.2439029
       },
       "derendingen": {
         "latitude": 47.1995305,
@@ -153,25 +112,65 @@
         "latitude": 46.8646535,
         "longitude": 7.12501542155265
       },
-      "elche": {
-        "latitude": 38.2653181,
-        "longitude": -0.6988488
+      "pottsville": {
+        "latitude": 40.6851324,
+        "longitude": -76.1953701
+      },
+      "zell": {
+        "latitude": 47.448026,
+        "longitude": 8.8227739
+      },
+      "oberwil": {
+        "latitude": 47.5136942,
+        "longitude": 7.5527853
+      },
+      "muttenz": {
+        "latitude": 47.525113,
+        "longitude": 7.6477401
+      },
+      "binningen": {
+        "latitude": 47.53656,
+        "longitude": 7.570077
+      },
+      "grenzach-wyhlen": {
+        "latitude": 47.5540691,
+        "longitude": 7.67687087177382
       },
       "zunzgen": {
         "latitude": 47.4504005,
         "longitude": 7.80462
       },
-      "kandern": {
-        "latitude": 47.7124915,
-        "longitude": 7.6575863
+      "h\u00e9singue": {
+        "latitude": 47.5751587,
+        "longitude": 7.5186109
       },
-      "arisdorf": {
-        "latitude": 47.5123813,
-        "longitude": 7.7655082
+      "reigoldswil": {
+        "latitude": 47.3974255,
+        "longitude": 7.6918178
       },
-      "bienne": {
-        "latitude": 47.1402077,
-        "longitude": 7.2439029
+      "basel": {
+        "latitude": 47.5581077,
+        "longitude": 7.5878261
+      },
+      "ettingen": {
+        "latitude": 47.4816164,
+        "longitude": 7.5441378
+      },
+      "ormalingen": {
+        "latitude": 47.4696552,
+        "longitude": 7.8755353
+      },
+      "b\u00fcsserach": {
+        "latitude": 47.3915791,
+        "longitude": 7.5405238
+      },
+      "birsfelden": {
+        "latitude": 47.5542152,
+        "longitude": 7.6304739
+      },
+      "m\u00fcnchenstein": {
+        "latitude": 47.5187909,
+        "longitude": 7.6174515
       }
     }
   },
@@ -187,9 +186,10 @@
   "defaults": {
     "layout": "rect",
     "colorBy": "location",
+    "distanceMeasure": "div",
     "geoResolution": "location"
   },
-  "updated": "19 Sep 2018",
+  "updated": "10 Oct 2018",
   "virus_count": 116,
   "author_info": {
     "Reist et al": {
@@ -199,95 +199,15 @@
     }
   },
   "annotations": {
-    "actP": {
-      "start": 7290,
-      "end": 8937,
-      "strand": -1
-    },
-    "rrf": {
-      "start": 1309478,
-      "end": 1309595,
-      "strand": -1
-    },
-    "flgD": {
-      "start": 61339,
-      "end": 62203,
-      "strand": 1
-    },
-    "ffs": {
-      "start": 66630,
-      "end": 66728,
-      "strand": 1
-    },
-    "ssrA": {
-      "start": 413865,
-      "end": 414224,
-      "strand": 1
-    },
-    "livG": {
-      "start": 781913,
-      "end": 782684,
-      "strand": 1
-    },
-    "pnk": {
-      "start": 1115422,
-      "end": 1116283,
-      "strand": -1
-    },
-    "rnpB": {
-      "start": 1193090,
-      "end": 1193415,
-      "strand": 1
-    },
-    "oorC": {
-      "start": 1204432,
-      "end": 1204990,
-      "strand": -1
-    },
-    "oorD": {
-      "start": 1206966,
-      "end": 1207278,
-      "strand": -1
-    },
-    "nusA": {
-      "start": 1282477,
-      "end": 1283566,
-      "strand": -1
-    },
-    "frdB": {
-      "start": 1332217,
-      "end": 1332943,
-      "strand": -1
-    },
-    "glyA": {
-      "start": 1339817,
-      "end": 1341062,
-      "strand": -1
-    },
-    "prpE": {
-      "start": 1465509,
-      "end": 1467417,
-      "strand": -1
-    },
-    "ubiA": {
-      "start": 1548523,
-      "end": 1549408,
-      "strand": -1
-    },
-    "tolB": {
-      "start": 1609756,
-      "end": 1610968,
-      "strand": -1
-    },
-    "rpsN": {
-      "start": 1643056,
-      "end": 1643242,
-      "strand": -1
-    },
     "G157RS00030": {
       "start": 6474,
       "end": 6606,
       "strand": 1
+    },
+    "actP": {
+      "start": 7290,
+      "end": 8937,
+      "strand": -1
     },
     "G157RS00065": {
       "start": 16904,
@@ -299,14 +219,29 @@
       "end": 33363,
       "strand": 1
     },
+    "rrf": {
+      "start": 1309478,
+      "end": 1309595,
+      "strand": -1
+    },
     "G157RS00180": {
       "start": 50247,
       "end": 52392,
       "strand": 1
     },
+    "flgD": {
+      "start": 61339,
+      "end": 62203,
+      "strand": 1
+    },
     "G157RS00230": {
       "start": 62206,
       "end": 63844,
+      "strand": 1
+    },
+    "ffs": {
+      "start": 66630,
+      "end": 66728,
       "strand": 1
     },
     "G157RS00250": {
@@ -559,6 +494,11 @@
       "end": 384464,
       "strand": -1
     },
+    "ssrA": {
+      "start": 413865,
+      "end": 414224,
+      "strand": 1
+    },
     "G157RS02080": {
       "start": 426701,
       "end": 427697,
@@ -759,6 +699,11 @@
       "end": 776939,
       "strand": 1
     },
+    "livG": {
+      "start": 781913,
+      "end": 782684,
+      "strand": 1
+    },
     "G157RS03940": {
       "start": 798720,
       "end": 800325,
@@ -934,6 +879,11 @@
       "end": 1113811,
       "strand": -1
     },
+    "pnk": {
+      "start": 1115422,
+      "end": 1116283,
+      "strand": -1
+    },
     "G157RS05635": {
       "start": 1128513,
       "end": 1129605,
@@ -959,9 +909,24 @@
       "end": 1188707,
       "strand": -1
     },
+    "rnpB": {
+      "start": 1193090,
+      "end": 1193415,
+      "strand": 1
+    },
     "G157RS05930": {
       "start": 1194066,
       "end": 1195980,
+      "strand": -1
+    },
+    "oorC": {
+      "start": 1204432,
+      "end": 1204990,
+      "strand": -1
+    },
+    "oorD": {
+      "start": 1206966,
+      "end": 1207278,
       "strand": -1
     },
     "G157RS06025": {
@@ -1014,6 +979,11 @@
       "end": 1281192,
       "strand": -1
     },
+    "nusA": {
+      "start": 1282477,
+      "end": 1283566,
+      "strand": -1
+    },
     "G157RS06385": {
       "start": 1283929,
       "end": 1285231,
@@ -1049,6 +1019,11 @@
       "end": 1330014,
       "strand": -1
     },
+    "frdB": {
+      "start": 1332217,
+      "end": 1332943,
+      "strand": -1
+    },
     "G157RS06655": {
       "start": 1336669,
       "end": 1337575,
@@ -1057,6 +1032,11 @@
     "G157RS06665": {
       "start": 1338435,
       "end": 1339263,
+      "strand": -1
+    },
+    "glyA": {
+      "start": 1339817,
+      "end": 1341062,
       "strand": -1
     },
     "G157RS06680": {
@@ -1159,6 +1139,11 @@
       "end": 1445358,
       "strand": 1
     },
+    "prpE": {
+      "start": 1465509,
+      "end": 1467417,
+      "strand": -1
+    },
     "G157RS07375": {
       "start": 1469321,
       "end": 1470362,
@@ -1199,6 +1184,11 @@
       "end": 1541000,
       "strand": -1
     },
+    "ubiA": {
+      "start": 1548523,
+      "end": 1549408,
+      "strand": -1
+    },
     "G157RS07790": {
       "start": 1549479,
       "end": 1550349,
@@ -1224,6 +1214,11 @@
       "end": 1599348,
       "strand": 1
     },
+    "tolB": {
+      "start": 1609756,
+      "end": 1610968,
+      "strand": -1
+    },
     "G157RS08190": {
       "start": 1620098,
       "end": 1620752,
@@ -1242,6 +1237,11 @@
     "G157RS08340": {
       "start": 1642651,
       "end": 1643047,
+      "strand": -1
+    },
+    "rpsN": {
+      "start": 1643056,
+      "end": 1643242,
       "strand": -1
     },
     "G157RS08350": {

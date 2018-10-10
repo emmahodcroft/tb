@@ -17,7 +17,17 @@
       "menuItem": "Eryth Resistance",
       "legendTitle": "Eryth Resistance",
       "type": "discrete",
-      "key": "eryth_resist"
+      "key": "eryth_resist",
+      "color_map": [
+        [
+          "resistant",
+          "#ff0000"
+        ],
+        [
+          "susceptible",
+          "#009900"
+        ]
+      ]
     },
     "material": {
       "type": "discrete",
@@ -29,7 +39,17 @@
       "menuItem": "Cipro Resistance",
       "legendTitle": "Cipro Resistance",
       "type": "discrete",
-      "key": "cipro_resist"
+      "key": "cipro_resist",
+      "color_map": [
+        [
+          "resistant",
+          "#ff0000"
+        ],
+        [
+          "susceptible",
+          "#009900"
+        ]
+      ]
     },
     "location": {
       "type": "discrete",
@@ -44,322 +64,305 @@
       "key": "host"
     },
     "country": {
+      "type": "discrete",
       "legendTitle": "country",
       "menuItem": "country",
-      "key": "country",
-      "color_map": [
-        [
-          "switzerland",
-          "#00ff00"
-        ],
-        [
-          "germany",
-          "#ff00ff"
-        ],
-        [
-          "usa",
-          "#d73324"
-        ],
-        [
-          "france",
-          "#4274CE"
-        ]
-      ]
+      "key": "country"
     }
   },
   "geo": {
     "location": {
-      "rheinfelden": {
-        "latitude": 47.5543859,
-        "longitude": 7.7922905
-      },
-      "ziefen": {
-        "latitude": 47.4305811,
-        "longitude": 7.7063432
-      },
-      "lucerne": {
-        "latitude": 47.0505452,
-        "longitude": 8.3054682
-      },
-      "buschwiller": {
-        "latitude": 47.5582234,
-        "longitude": 7.5057545
-      },
-      "frenkendorf": {
-        "latitude": 47.5028543,
-        "longitude": 7.7138283
-      },
-      "seon": {
-        "latitude": 47.3460005,
-        "longitude": 8.1593554
-      },
-      "bern": {
-        "latitude": 46.9482713,
-        "longitude": 7.4514512
-      },
-      "binningen": {
-        "latitude": 47.53656,
-        "longitude": 7.570077
-      },
-      "reigoldswil": {
-        "latitude": 47.3974255,
-        "longitude": 7.6918178
-      },
-      "zell": {
-        "latitude": 47.448026,
-        "longitude": 8.8227739
-      },
-      "aesch": {
-        "latitude": 47.4682447,
-        "longitude": 7.5980395
-      },
-      "wallbach": {
-        "latitude": 47.5599243,
-        "longitude": 7.902809
-      },
-      "del\u00e9mont": {
-        "latitude": 47.3619609,
-        "longitude": 7.354039
-      },
-      "fontenais": {
-        "latitude": 47.3893866,
-        "longitude": 7.07617635762008
-      },
-      "unterseen": {
-        "latitude": 46.6871654,
-        "longitude": 7.8496369
-      },
-      "chavannes": {
-        "latitude": 46.5285212,
-        "longitude": 6.5726698
-      },
-      "r\u00f6schenz": {
-        "latitude": 47.4238316,
-        "longitude": 7.4759663
-      },
-      "bettingen": {
-        "latitude": 47.5714149,
-        "longitude": 7.6639831
-      },
-      "wentzwiller": {
-        "latitude": 47.5503538,
-        "longitude": 7.481803
-      },
-      "m\u00fcnchenstein": {
-        "latitude": 47.5187909,
-        "longitude": 7.6174515
-      },
-      "laufen": {
-        "latitude": 47.4224096,
-        "longitude": 7.5020019
-      },
-      "giebenach": {
-        "latitude": 47.523792,
-        "longitude": 7.7453139
-      },
-      "bach_sz": {
-        "latitude": 47.2042376,
-        "longitude": 8.7335692
-      },
-      "menziken": {
-        "latitude": 47.240878,
-        "longitude": 8.187274
-      },
-      "reinach": {
-        "latitude": 47.4935369,
-        "longitude": 7.5910891
-      },
-      "tafers": {
-        "latitude": 46.8152805,
-        "longitude": 7.2167886
-      },
-      "birsfelden": {
-        "latitude": 47.5542152,
-        "longitude": 7.6304739
-      },
-      "bottmingen": {
-        "latitude": 47.5234501,
-        "longitude": 7.5748727
-      },
-      "weil_am_rhein": {
-        "latitude": 47.5932802,
-        "longitude": 7.6116133
-      },
-      "arboldswil": {
-        "latitude": 47.4158911,
-        "longitude": 7.7170041
-      },
-      "therwil": {
-        "latitude": 47.499334,
-        "longitude": 7.5574747
-      },
-      "efringen-kirchen": {
-        "latitude": 47.6556421,
-        "longitude": 7.565174
-      },
-      "m\u00f6hlin": {
-        "latitude": 47.5610087,
-        "longitude": 7.8427932
-      },
-      "dornach": {
-        "latitude": 47.4806097,
-        "longitude": 7.6176609
-      },
-      "schwaderloch": {
-        "latitude": 47.5853969,
-        "longitude": 8.1435346
-      },
-      "riehen": {
-        "latitude": 47.5816927,
-        "longitude": 7.6479737
-      },
-      "court\u00e9telle": {
-        "latitude": 47.3418687,
-        "longitude": 7.3162671
-      },
-      "muri_bei_bern": {
-        "latitude": 46.9332991,
-        "longitude": 7.49972434660936
-      },
-      "hurden": {
-        "latitude": 47.2142501,
-        "longitude": 8.8043485
-      },
-      "founex": {
-        "latitude": 46.3338174,
-        "longitude": 6.1943733
-      },
-      "dizy": {
-        "latitude": 46.6348867,
-        "longitude": 6.4949896
-      },
-      "muttenz": {
-        "latitude": 47.525113,
-        "longitude": 7.6477401
-      },
-      "oberwil": {
-        "latitude": 47.5136942,
-        "longitude": 7.5527853
-      },
-      "courtepin": {
-        "latitude": 46.8646535,
-        "longitude": 7.12501542155265
-      },
-      "rosenau": {
-        "latitude": 47.6375154,
-        "longitude": 7.5371474
-      },
-      "grellingen": {
-        "latitude": 47.4411563,
-        "longitude": 7.5876358
-      },
-      "san_antonio": {
-        "latitude": 29.4246002,
-        "longitude": -98.4951405
-      },
-      "rothrist": {
-        "latitude": 47.3029125,
-        "longitude": 7.8826232
-      },
-      "nusshof": {
-        "latitude": 47.4918508,
-        "longitude": 7.8047393
-      },
-      "biel-benken": {
-        "latitude": 47.506771,
-        "longitude": 7.520962
-      },
-      "wahlen": {
-        "latitude": 47.4021415,
-        "longitude": 7.5148865
-      },
-      "pratteln": {
-        "latitude": 47.5192013,
-        "longitude": 7.6944741
-      },
-      "kleinb\u00f6singen": {
-        "latitude": 46.8944209,
-        "longitude": 7.2047406
-      },
-      "arlesheim": {
-        "latitude": 47.4931125,
-        "longitude": 7.6202048
-      },
-      "grenzach-wyhlen": {
-        "latitude": 47.5540691,
-        "longitude": 7.67687087177382
-      },
-      "hofstetten": {
-        "latitude": 47.4755349,
-        "longitude": 7.5158929
-      },
-      "diegten": {
-        "latitude": 47.409937,
-        "longitude": 7.809077
+      "egerkingen": {
+        "latitude": 47.3225009,
+        "longitude": 7.7947889
       },
       "schinznach": {
         "latitude": 47.4473496,
         "longitude": 8.13772978603844
       },
-      "ettingen": {
-        "latitude": 47.4816164,
-        "longitude": 7.5441378
+      "rheinfelden": {
+        "latitude": 47.5543859,
+        "longitude": 7.7922905
       },
-      "zeiningen": {
-        "latitude": 47.5414438,
-        "longitude": 7.8716277
+      "wallbach": {
+        "latitude": 47.5599243,
+        "longitude": 7.902809
       },
-      "basel": {
-        "latitude": 47.5581077,
-        "longitude": 7.5878261
+      "arlesheim": {
+        "latitude": 47.4931125,
+        "longitude": 7.6202048
       },
-      "egerkingen": {
-        "latitude": 47.3225009,
-        "longitude": 7.7947889
+      "m\u00f6hlin": {
+        "latitude": 47.5610087,
+        "longitude": 7.8427932
+      },
+      "riehen": {
+        "latitude": 47.5816927,
+        "longitude": 7.6479737
+      },
+      "arboldswil": {
+        "latitude": 47.4158911,
+        "longitude": 7.7170041
       },
       "lotzwil": {
         "latitude": 47.1903503,
         "longitude": 7.7896055
       },
-      "gelterkinden": {
-        "latitude": 47.4640069,
-        "longitude": 7.8544495
+      "frenkendorf": {
+        "latitude": 47.5028543,
+        "longitude": 7.7138283
+      },
+      "lucerne": {
+        "latitude": 47.0505452,
+        "longitude": 8.3054682
+      },
+      "grellingen": {
+        "latitude": 47.4411563,
+        "longitude": 7.5876358
+      },
+      "m\u00fcnchenstein": {
+        "latitude": 47.5187909,
+        "longitude": 7.6174515
+      },
+      "aesch": {
+        "latitude": 47.4682447,
+        "longitude": 7.5980395
       },
       "liestal": {
         "latitude": 47.4839723,
         "longitude": 7.7347783
       },
-      "k\u00fcsnacht": {
-        "latitude": 47.3176276,
-        "longitude": 8.5830859
+      "biel-benken": {
+        "latitude": 47.506771,
+        "longitude": 7.520962
       },
-      "frick": {
-        "latitude": 47.5075081,
-        "longitude": 8.0203065
-      },
-      "bubendorf": {
-        "latitude": 47.446684,
-        "longitude": 7.73535
-      },
-      "allschwil": {
-        "latitude": 47.5517277,
-        "longitude": 7.5361588
+      "dizy": {
+        "latitude": 46.6348867,
+        "longitude": 6.4949896
       },
       "b\u00fcren": {
         "latitude": 47.1390542,
         "longitude": 7.3740171
       },
-      "burg_im_leimental": {
-        "latitude": 47.4578932,
-        "longitude": 7.4414641
+      "k\u00fcsnacht": {
+        "latitude": 47.3176276,
+        "longitude": 8.5830859
+      },
+      "schwaderloch": {
+        "latitude": 47.5853969,
+        "longitude": 8.1435346
+      },
+      "fontenais": {
+        "latitude": 47.3893866,
+        "longitude": 7.07617635762008
+      },
+      "weil_am_rhein": {
+        "latitude": 47.5932802,
+        "longitude": 7.6116133
       },
       "kilchberg": {
         "latitude": 47.3225316,
         "longitude": 8.5459483
       },
+      "ettingen": {
+        "latitude": 47.4816164,
+        "longitude": 7.5441378
+      },
+      "buschwiller": {
+        "latitude": 47.5582234,
+        "longitude": 7.5057545
+      },
+      "zell": {
+        "latitude": 47.448026,
+        "longitude": 8.8227739
+      },
+      "rosenau": {
+        "latitude": 47.6375154,
+        "longitude": 7.5371474
+      },
+      "r\u00f6schenz": {
+        "latitude": 47.4238316,
+        "longitude": 7.4759663
+      },
+      "birsfelden": {
+        "latitude": 47.5542152,
+        "longitude": 7.6304739
+      },
+      "del\u00e9mont": {
+        "latitude": 47.3619609,
+        "longitude": 7.354039
+      },
+      "binningen": {
+        "latitude": 47.53656,
+        "longitude": 7.570077
+      },
+      "reinach": {
+        "latitude": 47.4935369,
+        "longitude": 7.5910891
+      },
+      "bern": {
+        "latitude": 46.9482713,
+        "longitude": 7.4514512
+      },
+      "menziken": {
+        "latitude": 47.240878,
+        "longitude": 8.187274
+      },
+      "wahlen": {
+        "latitude": 47.4021415,
+        "longitude": 7.5148865
+      },
+      "wentzwiller": {
+        "latitude": 47.5503538,
+        "longitude": 7.481803
+      },
+      "reigoldswil": {
+        "latitude": 47.3974255,
+        "longitude": 7.6918178
+      },
+      "oberwil": {
+        "latitude": 47.5136942,
+        "longitude": 7.5527853
+      },
+      "bottmingen": {
+        "latitude": 47.5234501,
+        "longitude": 7.5748727
+      },
+      "courtepin": {
+        "latitude": 46.8646535,
+        "longitude": 7.12501542155265
+      },
+      "hurden": {
+        "latitude": 47.2142501,
+        "longitude": 8.8043485
+      },
+      "frick": {
+        "latitude": 47.5075081,
+        "longitude": 8.0203065
+      },
+      "founex": {
+        "latitude": 46.3338174,
+        "longitude": 6.1943733
+      },
+      "therwil": {
+        "latitude": 47.499334,
+        "longitude": 7.5574747
+      },
+      "giebenach": {
+        "latitude": 47.523792,
+        "longitude": 7.7453139
+      },
+      "muri_bei_bern": {
+        "latitude": 46.9332991,
+        "longitude": 7.49972434660936
+      },
+      "kleinb\u00f6singen": {
+        "latitude": 46.8944209,
+        "longitude": 7.2047406
+      },
+      "tafers": {
+        "latitude": 46.8152805,
+        "longitude": 7.2167886
+      },
+      "pratteln": {
+        "latitude": 47.5192013,
+        "longitude": 7.6944741
+      },
+      "nusshof": {
+        "latitude": 47.4918508,
+        "longitude": 7.8047393
+      },
+      "court\u00e9telle": {
+        "latitude": 47.3418687,
+        "longitude": 7.3162671
+      },
+      "laufen": {
+        "latitude": 47.4224096,
+        "longitude": 7.5020019
+      },
       "rohr": {
         "latitude": 47.4013608,
         "longitude": 8.0820154
+      },
+      "grenzach-wyhlen": {
+        "latitude": 47.5540691,
+        "longitude": 7.67687087177382
+      },
+      "efringen-kirchen": {
+        "latitude": 47.6556421,
+        "longitude": 7.565174
+      },
+      "gelterkinden": {
+        "latitude": 47.4640069,
+        "longitude": 7.8544495
+      },
+      "chavannes": {
+        "latitude": 46.5285212,
+        "longitude": 6.5726698
+      },
+      "rothrist": {
+        "latitude": 47.3029125,
+        "longitude": 7.8826232
+      },
+      "allschwil": {
+        "latitude": 47.5517277,
+        "longitude": 7.5361588
+      },
+      "bubendorf": {
+        "latitude": 47.446684,
+        "longitude": 7.73535
+      },
+      "burg_im_leimental": {
+        "latitude": 47.4578932,
+        "longitude": 7.4414641
+      },
+      "unterseen": {
+        "latitude": 46.6871654,
+        "longitude": 7.8496369
+      },
+      "bach_sz": {
+        "latitude": 47.2042376,
+        "longitude": 8.7335692
+      },
+      "muttenz": {
+        "latitude": 47.525113,
+        "longitude": 7.6477401
+      },
+      "bettingen": {
+        "latitude": 47.5714149,
+        "longitude": 7.6639831
+      },
+      "hofstetten": {
+        "latitude": 47.4755349,
+        "longitude": 7.5158929
+      },
+      "ziefen": {
+        "latitude": 47.4305811,
+        "longitude": 7.7063432
+      },
+      "zeiningen": {
+        "latitude": 47.5414438,
+        "longitude": 7.8716277
+      },
+      "seon": {
+        "latitude": 47.3460005,
+        "longitude": 8.1593554
+      },
+      "dornach": {
+        "latitude": 47.4806097,
+        "longitude": 7.6176609
+      },
+      "san_antonio": {
+        "latitude": 29.4246002,
+        "longitude": -98.4951405
+      },
+      "diegten": {
+        "latitude": 47.409937,
+        "longitude": 7.809077
+      },
+      "basel": {
+        "latitude": 47.5581077,
+        "longitude": 7.5878261
       }
     }
   },
@@ -375,9 +378,10 @@
   "defaults": {
     "layout": "rect",
     "colorBy": "location",
+    "distanceMeasure": "div",
     "geoResolution": "location"
   },
-  "updated": "19 Sep 2018",
+  "updated": "10 Oct 2018",
   "virus_count": 552,
   "author_info": {
     "Reist et al": {
