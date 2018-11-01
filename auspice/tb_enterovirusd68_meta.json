@@ -91,13 +91,49 @@
   },
   "geo": {
     "country": {
+      "Sweden": {
+        "latitude": 59.6749712,
+        "longitude": 14.5208584
+      },
+      "Haiti": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570971
+      },
+      "new_zealand": {
+        "latitude": -41.500083,
+        "longitude": 172.8344077
+      },
+      "Tanzania": {
+        "latitude": -6.0,
+        "longitude": 35.0
+      },
       "Netherlands": {
         "latitude": 52.3702,
         "longitude": 4.8952
       },
+      "hong_kong": {
+        "latitude": 22.3964,
+        "longitude": 114.1095
+      },
+      "Philippines": {
+        "latitude": 12.8797,
+        "longitude": 121.774
+      },
       "Vietnam": {
         "latitude": 16.16667,
         "longitude": 107.83333
+      },
+      "Canada": {
+        "latitude": 61.0666922,
+        "longitude": -107.991707
+      },
+      "Taiwan": {
+        "latitude": 23.6978,
+        "longitude": 120.9605
+      },
+      "Mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
       },
       "Japan": {
         "latitude": 35.68536,
@@ -107,45 +143,9 @@
         "latitude": 39.7837304,
         "longitude": -100.4458824
       },
-      "hong_kong": {
-        "latitude": 22.3964,
-        "longitude": 114.1095
-      },
-      "new_zealand": {
-        "latitude": -41.500083,
-        "longitude": 172.8344077
-      },
-      "Taiwan": {
-        "latitude": 23.6978,
-        "longitude": 120.9605
-      },
-      "Philippines": {
-        "latitude": 12.8797,
-        "longitude": 121.774
-      },
-      "Sweden": {
-        "latitude": 59.6749712,
-        "longitude": 14.5208584
-      },
       "China": {
         "latitude": 35.000074,
         "longitude": 104.999927
-      },
-      "Tanzania": {
-        "latitude": -6.0,
-        "longitude": 35.0
-      },
-      "Haiti": {
-        "latitude": 19.1399952,
-        "longitude": -72.3570971
-      },
-      "Canada": {
-        "latitude": 61.0666922,
-        "longitude": -107.991707
-      },
-      "Mexico": {
-        "latitude": 19.4325301,
-        "longitude": -99.1332101
       }
     }
   },
