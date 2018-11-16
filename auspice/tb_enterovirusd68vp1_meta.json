@@ -34,37 +34,41 @@
   },
   "geo": {
     "country": {
-      "Thailand": {
-        "latitude": 14.8971921,
-        "longitude": 100.83273
+      "Philippines": {
+        "latitude": 12.8797,
+        "longitude": 121.774
       },
-      "Haiti": {
-        "latitude": 19.1399952,
-        "longitude": -72.3570971
+      "Kenya": {
+        "latitude": 1.0,
+        "longitude": 38.0
       },
-      "Canada": {
-        "latitude": 61.0666922,
-        "longitude": -107.991707
+      "USA": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
       },
-      "Sweden": {
-        "latitude": 59.6749712,
-        "longitude": 14.5208584
-      },
-      "vietnam": {
-        "latitude": 16.16667,
-        "longitude": 107.83333
-      },
-      "Taiwan": {
-        "latitude": 23.6978,
-        "longitude": 120.9605
+      "France": {
+        "latitude": 46.603354,
+        "longitude": 1.8883335
       },
       "Senegal": {
         "latitude": 14.5,
         "longitude": -14.25
       },
-      "Malaysia": {
-        "latitude": 2.3923759,
-        "longitude": 112.8471939
+      "China": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "Gambia": {
+        "latitude": 13.5,
+        "longitude": -15.5
+      },
+      "India": {
+        "latitude": 22.3511148,
+        "longitude": 78.6677428
+      },
+      "Italy": {
+        "latitude": 42.6384261,
+        "longitude": 12.674297
       },
       "Japan": {
         "latitude": 35.68536,
@@ -74,69 +78,65 @@
         "latitude": -28.8166235,
         "longitude": 24.991639
       },
-      "France": {
-        "latitude": 46.603354,
-        "longitude": 1.8883335
-      },
-      "Spain": {
-        "latitude": 40.0028028,
-        "longitude": -4.0031039
-      },
-      "Gambia": {
-        "latitude": 13.5,
-        "longitude": -15.5
-      },
-      "Kenya": {
-        "latitude": 1.0,
-        "longitude": 38.0
-      },
-      "united_kingdom": {
-        "latitude": 51.50853,
-        "longitude": -0.12574
-      },
-      "Mexico": {
-        "latitude": 19.4325301,
-        "longitude": -99.1332101
-      },
-      "Netherlands": {
-        "latitude": 52.3702,
-        "longitude": 4.8952
-      },
-      "India": {
-        "latitude": 22.3511148,
-        "longitude": 78.6677428
-      },
-      "Germany": {
-        "latitude": 51.0834196,
-        "longitude": 10.4234469
+      "Sweden": {
+        "latitude": 59.6749712,
+        "longitude": 14.5208584
       },
       "new_zealand": {
         "latitude": -41.500083,
         "longitude": 172.8344077
       },
-      "Philippines": {
-        "latitude": 12.8797,
-        "longitude": 121.774
+      "Taiwan": {
+        "latitude": 23.6978,
+        "longitude": 120.9605
       },
-      "hong_kong": {
-        "latitude": 22.3964,
-        "longitude": 114.1095
+      "Haiti": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570971
       },
-      "USA": {
-        "latitude": 39.7837304,
-        "longitude": -100.4458824
+      "Malaysia": {
+        "latitude": 2.3923759,
+        "longitude": 112.8471939
       },
-      "Italy": {
-        "latitude": 42.6384261,
-        "longitude": 12.674297
+      "Canada": {
+        "latitude": 61.0666922,
+        "longitude": -107.991707
       },
       "Tanzania": {
         "latitude": -6.0,
         "longitude": 35.0
       },
-      "China": {
-        "latitude": 35.000074,
-        "longitude": 104.999927
+      "Mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "hong_kong": {
+        "latitude": 22.3964,
+        "longitude": 114.1095
+      },
+      "Netherlands": {
+        "latitude": 52.3702,
+        "longitude": 4.8952
+      },
+      "Thailand": {
+        "latitude": 14.8971921,
+        "longitude": 100.83273
+      },
+      "Spain": {
+        "latitude": 40.0028028,
+        "longitude": -4.0031039
+      },
+      "united_kingdom": {
+        "latitude": 51.50853,
+        "longitude": -0.12574
+      },
+      "Germany": {
+        "latitude": 51.0834196,
+        "longitude": 10.4234469
+      },
+      "vietnam": {
+        "latitude": 16.16667,
+        "longitude": 107.83333
       }
     }
   },
@@ -147,8 +147,8 @@
   "filters": [
     "country"
   ],
-  "updated": "01 Nov 2018",
-  "virus_count": 1570,
+  "updated": "15 Nov 2018",
+  "virus_count": 1569,
   "author_info": {
     "Dyrdak, R. et al.": {
       "n": 60,
@@ -542,62 +542,12 @@
   "annotations": {
     "nuc": {
       "start": 1,
-      "end": 7367,
-      "strand": 1
-    },
-    "VP4": {
-      "start": 732,
-      "end": 939,
-      "strand": 1
-    },
-    "VP2": {
-      "start": 939,
-      "end": 1683,
-      "strand": 1
-    },
-    "VP3": {
-      "start": 1683,
-      "end": 2388,
+      "end": 927,
       "strand": 1
     },
     "VP1": {
-      "start": 2388,
-      "end": 3315,
-      "strand": 1
-    },
-    "2A": {
-      "start": 3315,
-      "end": 3756,
-      "strand": 1
-    },
-    "2B": {
-      "start": 3756,
-      "end": 4053,
-      "strand": 1
-    },
-    "2C": {
-      "start": 4053,
-      "end": 5043,
-      "strand": 1
-    },
-    "3A": {
-      "start": 5043,
-      "end": 5310,
-      "strand": 1
-    },
-    "3B": {
-      "start": 5310,
-      "end": 5376,
-      "strand": 1
-    },
-    "3C": {
-      "start": 5376,
-      "end": 5925,
-      "strand": 1
-    },
-    "3D": {
-      "start": 5925,
-      "end": 7296,
+      "start": 0,
+      "end": 927,
       "strand": 1
     }
   },
