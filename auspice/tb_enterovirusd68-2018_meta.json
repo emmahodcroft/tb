@@ -62,13 +62,21 @@
     }
   },
   "author_info": {
+    "Arunkumar, G. et al.": {
+      "n": 1,
+      "title": "A report on Enterovirus D68 associated viral pneumonia in children from south India 2017"
+    },
     "Baggen,J., Thibaut,H.J., Staring,J., Jae,L.T., Liu,Y., Guo,H., Slager,J.J., de Bruin,J.W., van Vliet,A.L., Blomen,V.A., Overduin,P., Sheng,J., de Haan Xander,C.A., de Vries,E., Meijer,A., Rossmann,M.G., Brummelkamp,T.R. and van Kuppeveld,F.J.": {
       "n": 8,
       "title": "Enterovirus D68 receptor requirements unveiled by haploid genetics"
     },
+    "Bal, A. et al.": {
+      "n": 14,
+      "title": "Emergence of enterovirus D68 clade D1, France, August to November 2018"
+    },
     "Brown,B.A., Nix,W.A., Sheth,M., Frace,M. and Oberste,M.S.": {
       "n": 7,
-      "title": "Seven Strains of Enterovirus D68 Detected in the United States during the 2014 Severe Respiratory Disease Outbreak"
+      "title": "Next-generation sequencing of Enterovirus D68"
     },
     "Chaimongkol,N., Okamoto,M., Furuse,Y., Nishimura,H. and Oshitani,H.": {
       "n": 12,
@@ -117,6 +125,10 @@
     "Essaidi-Laziosi,M., Brito,F., Benaoudia,S., Royston,L., Cagno,V., Fernandes-Rocha,M., Piuz,I., Zdobnov,E., Huang,S., Constant,S., Boldi,M.O., Kaiser,L. and Tapparel,C.": {
       "n": 1,
       "title": "Propagation of respiratory viruses in human airway epithelia reveals persistent virus-specific signatures"
+    },
+    "Evans,W.J., Hurst,B.L., Peterson,C.J., Van Wettere,A.J., Day,C.W., Smee,D.F. and Tarbet,E.B.": {
+      "n": 1,
+      "title": "Development of a respiratory disease model for enterovirus D68 in 4-week-Old mice for evaluation of antiviral therapies"
     },
     "Gong,Y.N., Yang,S.L., Shih,S.R., Huang,Y.C., Chang,P.Y., Huang,C.G., Kao,K.C., Hu,H.C., Liu,Y.C. and Tsao,K.C.": {
       "n": 11,
@@ -295,7 +307,7 @@
           "#511EA8"
         ],
         [
-          "hong_kong",
+          "Hong_Kong",
           "#4928B4"
         ],
         [
@@ -307,7 +319,7 @@
           "#4063CF"
         ],
         [
-          "Vietnam",
+          "vietnam",
           "#527CCE"
         ],
         [
@@ -315,7 +327,7 @@
           "#528EB1"
         ],
         [
-          "new_zealand",
+          "New_Zealand",
           "#55AEB1"
         ],
         [
@@ -329,6 +341,14 @@
         [
           "Belgium",
           "#003311"
+        ],
+        [
+          "France",
+          "#00cc00"
+        ],
+        [
+          "India",
+          "#d7e1f4"
         ],
         [
           "Canada",
@@ -378,6 +398,10 @@
           "#3399FF"
         ],
         [
+          "south_asia",
+          "#5199B7"
+        ],
+        [
           "japan_korea",
           "#339933"
         ],
@@ -421,9 +445,21 @@
         "latitude": 35.000074,
         "longitude": 104.999927
       },
+      "France": {
+        "latitude": 46.603354,
+        "longitude": 1.8883335
+      },
       "Haiti": {
         "latitude": 19.1399952,
         "longitude": -72.3570971
+      },
+      "Hong_Kong": {
+        "latitude": 22.3964,
+        "longitude": 114.1095
+      },
+      "India": {
+        "latitude": 22.3511148,
+        "longitude": 78.6677428
       },
       "Japan": {
         "latitude": 35.68536,
@@ -436,6 +472,10 @@
       "Netherlands": {
         "latitude": 52.3702,
         "longitude": 4.8952
+      },
+      "New_Zealand": {
+        "latitude": -41.500083,
+        "longitude": 172.8344077
       },
       "Philippines": {
         "latitude": 12.8797,
@@ -457,17 +497,9 @@
         "latitude": 39.7837304,
         "longitude": -100.4458824
       },
-      "Vietnam": {
+      "vietnam": {
         "latitude": 16.16667,
         "longitude": 107.83333
-      },
-      "hong_kong": {
-        "latitude": 22.3964,
-        "longitude": 114.1095
-      },
-      "new_zealand": {
-        "latitude": -41.500083,
-        "longitude": 172.8344077
       }
     }
   },
@@ -481,6 +513,6 @@
     "entropy"
   ],
   "title": "Phylodynamics of Enterovirus D68",
-  "updated": "28 Jan 2019",
-  "virus_count": 590
+  "updated": "30 Jan 2019",
+  "virus_count": 606
 }
