@@ -79,7 +79,7 @@
       "title": "Next-generation sequencing of Enterovirus D68"
     },
     "Chaimongkol,N., Okamoto,M., Furuse,Y., Nishimura,H. and Oshitani,H.": {
-      "n": 12,
+      "n": 10,
       "title": "Evolution and Genetic variability of human enterovirus D68: population dynamic in Asia"
     },
     "Chen,L., Shi,L., Yang,H., Gu,D.Y., Meng,J., Xu,Y.Q., Yao,X.J., Zhang,H.L., Cheng,J.Q., Ma,H.W., Zhang,R.L. and He,Y.Q.": {
@@ -95,7 +95,7 @@
       "title": "Whole-genome deep sequencing of enterovirus D68 strains in cases of acute flaccid paralysis in California"
     },
     "Das,S.R., Fedorova,N., Puri,V., Stockwell,T., Shrivastava,S., Amedeo,P., Shabman,R., Jackson,D.J. and Gern,J.E.": {
-      "n": 11,
+      "n": 7,
       "title": "Direct Submission"
     },
     "Das,S.R., Halpin,R.A., Akopov,A., Fedorova,N., Puri,V., Stockwell,T., Amedeo,P., Bishop,B., Katzel,D., Schobel,S., Shrivastava,S., Jackson,D.J. and Gern,J.E.": {
@@ -219,7 +219,7 @@
       "title": "Next-generation Sequencing of Enterovirus D68"
     },
     "Nguyen,N.N.": {
-      "n": 11,
+      "n": 10,
       "title": "Direct Submission"
     },
     "Pabbaraju,K., Wong,S., Zarra,D., Gill,K., Drews,S., Tipples,G. and Tellier,R.": {
@@ -249,10 +249,6 @@
     "Wang,Y., Zhao,Y., Lu,R., Li,Y. and Tan,W.": {
       "n": 1,
       "title": "Direct Submission"
-    },
-    "Wang,Y., Zhao,Y., Lu,R., Li,Y., Shen,J. and Tan,W.": {
-      "n": 1,
-      "title": "Epidemiological characteristic and molecular typing of enterovirus d68 in Beijing and Shanghai between 2008-2014"
     },
     "Wylie,K.M., Wylie,T.N. and Storch,G.A.": {
       "n": 2,
@@ -513,6 +509,6 @@
     "entropy"
   ],
   "title": "Phylodynamics of Enterovirus D68",
-  "updated": "30 Jan 2019",
-  "virus_count": 606
+  "updated": "05 Feb 2019",
+  "virus_count": 598
 }
