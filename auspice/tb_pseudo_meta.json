@@ -1,0 +1,210 @@
+{
+  "author_info": {
+    "unknown": {
+      "n": 723
+    }
+  },
+  "color_options": {
+    "country": {
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "specific_host": {
+      "key": "specific_host",
+      "legendTitle": "specific_host",
+      "menuItem": "specific_host",
+      "type": "discrete"
+    },
+    "taxonomy_name": {
+      "key": "taxonomy_name",
+      "legendTitle": "taxonomy_name",
+      "menuItem": "taxonomy_name",
+      "type": "discrete"
+    }
+  },
+  "filters": [
+    "country",
+    "authors"
+  ],
+  "geo": {
+    "country": {
+      "Afghanistan": {
+        "latitude": 33.0,
+        "longitude": 66.0
+      },
+      "Argentina": {
+        "latitude": -34.0,
+        "longitude": -64.0
+      },
+      "Australia": {
+        "latitude": -24.7761085,
+        "longitude": 134.755
+      },
+      "Belgium": {
+        "latitude": 50.6407351,
+        "longitude": 4.66696
+      },
+      "Brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "Canada": {
+        "latitude": 61.0666922,
+        "longitude": -107.991707
+      },
+      "Chile": {
+        "latitude": -31.7613364,
+        "longitude": -71.3187696
+      },
+      "China": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "Colombia": {
+        "latitude": 2.893108,
+        "longitude": -73.7845142
+      },
+      "Croatia": {
+        "latitude": 45.16667,
+        "longitude": 15.5
+      },
+      "Denmark": {
+        "latitude": 56.0,
+        "longitude": 10.0
+      },
+      "Estonia": {
+        "latitude": 59.0,
+        "longitude": 26.0
+      },
+      "France": {
+        "latitude": 46.603354,
+        "longitude": 1.8883335
+      },
+      "Germany": {
+        "latitude": 51.0834196,
+        "longitude": 10.4234469
+      },
+      "Ghana": {
+        "latitude": 8.0300284,
+        "longitude": -1.080027
+      },
+      "India": {
+        "latitude": 22.3511148,
+        "longitude": 78.6677428
+      },
+      "Israel": {
+        "latitude": 31.5,
+        "longitude": 34.75
+      },
+      "Italy": {
+        "latitude": 42.6384261,
+        "longitude": 12.674297
+      },
+      "Japan": {
+        "latitude": 35.68536,
+        "longitude": 139.75309
+      },
+      "Lebanon": {
+        "latitude": 33.88894,
+        "longitude": 35.49442
+      },
+      "Malaysia": {
+        "latitude": 2.3923759,
+        "longitude": 112.8471939
+      },
+      "Mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "Nepal": {
+        "latitude": 28.0,
+        "longitude": 84.0
+      },
+      "Netherlands": {
+        "latitude": 52.3702,
+        "longitude": 4.8952
+      },
+      "Philippines": {
+        "latitude": 12.8797,
+        "longitude": 121.774
+      },
+      "Portugal": {
+        "latitude": 39.6945,
+        "longitude": -8.13057
+      },
+      "Romania": {
+        "latitude": 46.0,
+        "longitude": 25.0
+      },
+      "Russia": {
+        "latitude": 64.6863136,
+        "longitude": 97.7453061
+      },
+      "Spain": {
+        "latitude": 40.0028028,
+        "longitude": -4.0031039
+      },
+      "Sweden": {
+        "latitude": 59.6749712,
+        "longitude": 14.5208584
+      },
+      "Taiwan": {
+        "latitude": 23.6978,
+        "longitude": 120.9605
+      },
+      "Tanzania": {
+        "latitude": -6.0,
+        "longitude": 35.0
+      },
+      "USA": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "Venezuela": {
+        "latitude": 8.0,
+        "longitude": -66.0
+      },
+      "pacific_ocean": {
+        "latitude": 22.1365522,
+        "longitude": 147.254485
+      },
+      "south_africa": {
+        "latitude": -28.8166235,
+        "longitude": 24.991639
+      },
+      "south_korea": {
+        "latitude": 35.3985008,
+        "longitude": 127.937111
+      },
+      "united_kingdom": {
+        "latitude": 51.50853,
+        "longitude": -0.12574
+      }
+    }
+  },
+  "maintainer": [
+    "Laura Perlaza-Jimenez",
+    "https://website.org"
+  ],
+  "panels": [
+    "tree",
+    "map"
+  ],
+  "title": "TB outbreak in Nunavik, Canada",
+  "updated": "25 Feb 2019",
+  "virus_count": 706
+}
