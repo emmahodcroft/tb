@@ -621,7 +621,7 @@
     }
   },
   "maintainer": [
-    "Richard Neher, Robert Dyrdak",
+    "Emma Hodcroft, Richard Neher, Robert Dyrdak, Jan Albert",
     "http://neherlab.org"
   ],
   "panels": [
@@ -630,6 +630,6 @@
     "entropy"
   ],
   "title": "Phylodynamics of Enterovirus D68",
-  "updated": "05 Apr 2019",
+  "updated": "08 Apr 2019",
   "virus_count": 1390
 }
