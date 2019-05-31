@@ -1,0 +1,387 @@
+{
+ "updated": "2018-04-09", 
+ "author_info": {
+  "?": {
+   "paper_url": "?", 
+   "journal": "?", 
+   "n": 1, 
+   "title": "?"
+  }
+ }, 
+ "virus_count": 149, 
+ "title": "NextTB", 
+ "color_options": {
+  "division": {
+   "menuItem": "division", 
+   "legendTitle": "division", 
+   "color_map": [
+    [
+     "canada", 
+     "#bcbddc"
+    ]
+   ], 
+   "type": "discrete", 
+   "key": "division"
+  }, 
+  "num_date": {
+   "menuItem": "date", 
+   "legendTitle": "Sampling date", 
+   "type": "continuous", 
+   "key": "num_date"
+  }, 
+  "country": {
+   "menuItem": "country", 
+   "legendTitle": "country", 
+   "color_map": [
+    [
+     "village_a", 
+     "#7fc97f"
+    ], 
+    [
+     "village_b", 
+     "#beaed4"
+    ], 
+    [
+     "village_c", 
+     "#fdc086"
+    ], 
+    [
+     "village_d", 
+     "#ffff99"
+    ], 
+    [
+     "village_e", 
+     "#386cb0"
+    ], 
+    [
+     "village_k", 
+     "#f0027f"
+    ], 
+    [
+     "other_village", 
+     "#bf5b17"
+    ]
+   ], 
+   "type": "discrete", 
+   "key": "country"
+  }, 
+  "region": {
+   "menuItem": "region", 
+   "legendTitle": "region", 
+   "color_map": [
+    [
+     "north_america", 
+     "#807dba"
+    ]
+   ], 
+   "type": "discrete", 
+   "key": "region"
+  }, 
+  "cluster": {
+   "menuItem": "cluster", 
+   "legendTitle": "cluster", 
+   "color_map": [
+    [
+     "Mj-I", 
+     "#a6cee3"
+    ], 
+    [
+     "Mj-II", 
+     "#fb9a99"
+    ], 
+    [
+     "Mj-III.a", 
+     "#b15928"
+    ], 
+    [
+     "Mj-III.b", 
+     "#ffff99"
+    ], 
+    [
+     "Mj-III.c", 
+     "#00441b"
+    ], 
+    [
+     "Mj-IV.a", 
+     "#e31a1c"
+    ], 
+    [
+     "Mj-IV.b", 
+     "#33a02c"
+    ], 
+    [
+     "Mj-IV.c", 
+     "#cab2d6"
+    ], 
+    [
+     "Mj-V.a", 
+     "#1f78b4"
+    ], 
+    [
+     "Mj-V.b", 
+     "#67001f"
+    ], 
+    [
+     "Mj-V.d", 
+     "#b2df8a"
+    ], 
+    [
+     "Mj-V.c", 
+     "#6a3d9a"
+    ], 
+    [
+     "Mj-VI", 
+     "#fdbf6f"
+    ], 
+    [
+     "Mn", 
+     "#ff7f00"
+    ]
+   ], 
+   "type": "discrete", 
+   "key": "cluster"
+  }, 
+  "gt": {
+   "menuItem": "genotype", 
+   "legendTitle": "Genotype", 
+   "type": "discrete", 
+   "key": "genotype"
+  }
+ }, 
+ "seq_author_map": {}, 
+ "filters": [
+  "country", 
+  "region", 
+  "division"
+ ], 
+ "commit": "unknown", 
+ "maintainer": "Emma Hodcroft", 
+ "panels": [
+  "tree", 
+  "map", 
+  "entropy"
+ ], 
+ "geo": {
+  "country": {
+   "village_d": {
+    "latitude": 62.518122, 
+    "longitude": -76.800653, 
+    "country_code": "CA"
+   }, 
+   "village_e": {
+    "latitude": 59.326912, 
+    "longitude": -65.557907, 
+    "country_code": "CA"
+   }, 
+   "village_a": {
+    "latitude": 58.032779, 
+    "longitude": -77.182204, 
+    "country_code": "CA"
+   }, 
+   "village_b": {
+    "latitude": 62.001829, 
+    "longitude": -72.614497, 
+    "country_code": "CA"
+   }, 
+   "village_c": {
+    "latitude": 59.626697, 
+    "longitude": -77.753784, 
+    "country_code": "CA"
+   }, 
+   "village_k": {
+    "latitude": 58.86214, 
+    "longitude": -68.587027, 
+    "country_code": "CA"
+   }, 
+   "other_village": {
+    "latitude": 59.665522, 
+    "longitude": -73.32893, 
+    "country_code": "CA"
+   }
+  }, 
+  "region": {}, 
+  "division": {}
+ }, 
+ "annotations": {
+  "Rv1129c": {
+   "start": 1253073, 
+   "end": 1254534, 
+   "strand": -1
+  }, 
+  "narX": {
+   "start": 1962227, 
+   "end": 1964186, 
+   "strand": -1
+  }, 
+  "fadE5": {
+   "start": 293797, 
+   "end": 295633, 
+   "strand": -1
+  }, 
+  "lldD2": {
+   "start": 2121906, 
+   "end": 2123151, 
+   "strand": -1
+  }, 
+  "nuc": {
+   "start": 1, 
+   "end": 4411532, 
+   "strand": 1
+  }, 
+  "proZ": {
+   "start": 4201893, 
+   "end": 4202613, 
+   "strand": -1
+  }, 
+  "cobS": {
+   "start": 2472492, 
+   "end": 2473242, 
+   "strand": 1
+  }, 
+  "murD": {
+   "start": 2414933, 
+   "end": 2416394, 
+   "strand": -1
+  }, 
+  "Rv0010c": {
+   "start": 13132, 
+   "end": 13558, 
+   "strand": -1
+  }, 
+  "pks2": {
+   "start": 4293224, 
+   "end": 4299605, 
+   "strand": -1
+  }, 
+  "gid": {
+   "start": 4407527, 
+   "end": 4408202, 
+   "strand": -1
+  }, 
+  "Rv2752c": {
+   "start": 3064514, 
+   "end": 3066191, 
+   "strand": -1
+  }, 
+  "eccC2": {
+   "start": 4376261, 
+   "end": 4380452, 
+   "strand": -1
+  }, 
+  "folC": {
+   "start": 2746134, 
+   "end": 2747598, 
+   "strand": -1
+  }, 
+  "Rv3087": {
+   "start": 3452924, 
+   "end": 3454343, 
+   "strand": 1
+  }, 
+  "ctpE": {
+   "start": 1011730, 
+   "end": 1014124, 
+   "strand": 1
+  }, 
+  "pks8": {
+   "start": 1881703, 
+   "end": 1886512, 
+   "strand": 1
+  }, 
+  "Rv0909": {
+   "start": 1014680, 
+   "end": 1014860, 
+   "strand": 1
+  }, 
+  "katG": {
+   "start": 2153888, 
+   "end": 2156111, 
+   "strand": -1
+  }, 
+  "esxD": {
+   "start": 4374048, 
+   "end": 4374372, 
+   "strand": -1
+  }, 
+  "Rv0026": {
+   "start": 29721, 
+   "end": 31068, 
+   "strand": 1
+  }, 
+  "esxM": {
+   "start": 2030346, 
+   "end": 2030643, 
+   "strand": 1
+  }, 
+  "rpoC": {
+   "start": 763369, 
+   "end": 767320, 
+   "strand": 1
+  }, 
+  "pks15": {
+   "start": 3296349, 
+   "end": 3297840, 
+   "strand": -1
+  }, 
+  "hsdS": {
+   "start": 3071545, 
+   "end": 3072640, 
+   "strand": -1
+  }, 
+  "Rv0565c": {
+   "start": 656009, 
+   "end": 657470, 
+   "strand": -1
+  }, 
+  "ubiA": {
+   "start": 4268924, 
+   "end": 4269833, 
+   "strand": -1
+  }, 
+  "dnaQ": {
+   "start": 4155739, 
+   "end": 4156729, 
+   "strand": -1
+  }, 
+  "ndh": {
+   "start": 2101650, 
+   "end": 2103042, 
+   "strand": -1
+  }, 
+  "Rv0039c": {
+   "start": 42003, 
+   "end": 42351, 
+   "strand": -1
+  }, 
+  "embA": {
+   "start": 4243232, 
+   "end": 4246517, 
+   "strand": 1
+  }, 
+  "embB": {
+   "start": 4246513, 
+   "end": 4249810, 
+   "strand": 1
+  }, 
+  "embC": {
+   "start": 4239862, 
+   "end": 4243147, 
+   "strand": 1
+  }, 
+  "fadA3": {
+   "start": 1198155, 
+   "end": 1199373, 
+   "strand": -1
+  }, 
+  "cycA": {
+   "start": 1929785, 
+   "end": 1931456, 
+   "strand": -1
+  }, 
+  "esxU": {
+   "start": 3862946, 
+   "end": 3863264, 
+   "strand": -1
+  }
+ }
+}
