@@ -1,0 +1,163 @@
+{
+  "annotations": {
+    "capsid": {
+      "end": 2637,
+      "start": 0,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 2637,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {
+    "Burns,C.C., Shaw,J., Jorba,J., Bukbuk,D., Adu,F., Gumede,N., Pate,M.A., Abanida,E.A., Gasasira,A., Iber,J., Chen,Q., Vincent,A., Chenoweth,P., Henderson,E., Wannemuehler,K., Naeem,A., Umami,R.N., Nishimura,Y., Shimizu,H., Baba,M., Adeniji,A., Williams,A.J., Kilpatrick,D.R., Oberste,M.S., Wassilak,S.G., Tomori,O., Pallansch,M.A. and Kew,O.": {
+      "n": 349,
+      "title": "Multiple Independent Emergences of Type 2 Vaccine-Derived Polioviruses during a Large Outbreak in Northern Nigeria"
+    },
+    "DeVries,A.S., Harper,J., Murray,A., Lexau,C., Bahta,L., Christensen,J., Cebelinski,E., Fuller,S., Kline,S., Wallace,G.S., Shaw,J.H., Burns,C.C. and Lynfield,R.": {
+      "n": 1,
+      "title": "Brief Report: Neuroinvasive Immunodeficiency-Associated Vaccine-Derived Poliomyelitis Thirteen Years after Infection - Minnesota, 2008"
+    },
+    "Montmayeur,A.M., Ng,T.F., Schmidt,A., Zhao,K., Magana,L., Iber,J., Castro,C.J., Chen,Q., Henderson,E., Ramos,E., Shaw,J., Tatusov,R.L., Dybdahl-Sissoko,N., Endegue-Zanga,M.C., Adeniji,J.A., Oberste,M.S. and Burns,C.C.": {
+      "n": 8,
+      "title": "High-Throughput Next Generation Sequencing of Polioviruses"
+    }
+  },
+  "color_options": {
+    "country": {
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "district": {
+      "key": "district",
+      "legendTitle": "district",
+      "menuItem": "district",
+      "type": "discrete"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "note": {
+      "key": "note",
+      "legendTitle": "note",
+      "menuItem": "note",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "source": {
+      "key": "source",
+      "legendTitle": "source",
+      "menuItem": "source",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "district",
+    "geoResolution": "district"
+  },
+  "filters": [
+    "district"
+  ],
+  "geo": {
+    "country": {
+      "Nigeria": {
+        "latitude": 10.0,
+        "longitude": 8.0
+      }
+    },
+    "district": {
+      "adamawa": {
+        "latitude": 9.333333,
+        "longitude": 12.5
+      },
+      "bauchi": {
+        "latitude": 10.5,
+        "longitude": 10.0
+      },
+      "benue": {
+        "latitude": 7.333333,
+        "longitude": 8.75
+      },
+      "borno": {
+        "latitude": 11.5,
+        "longitude": 13.0
+      },
+      "jigawa": {
+        "latitude": 12.0,
+        "longitude": 9.75
+      },
+      "kaduna": {
+        "latitude": 10.333333,
+        "longitude": 7.75
+      },
+      "kano": {
+        "latitude": 11.5,
+        "longitude": 8.5
+      },
+      "katsina": {
+        "latitude": 12.25,
+        "longitude": 7.5
+      },
+      "kebbi": {
+        "latitude": 11.5,
+        "longitude": 4.0
+      },
+      "kogi": {
+        "latitude": 7.5,
+        "longitude": 6.7
+      },
+      "nassarawa": {
+        "latitude": 8.533333,
+        "longitude": 8.3
+      },
+      "niger": {
+        "latitude": 10.0,
+        "longitude": 6.0
+      },
+      "plateau": {
+        "latitude": 9.166667,
+        "longitude": 9.75
+      },
+      "sokoto": {
+        "latitude": 13.083333,
+        "longitude": 5.25
+      },
+      "taraba": {
+        "latitude": 8.0,
+        "longitude": 10.5
+      },
+      "yobe": {
+        "latitude": 12.0,
+        "longitude": 11.5
+      },
+      "zamfara": {
+        "latitude": 12.166667,
+        "longitude": 6.25
+      }
+    }
+  },
+  "maintainer": [
+    "Emma Hodcroft",
+    "http://neherlab.org"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Nigerian Polio Outbreak",
+  "updated": "23 Jul 2019",
+  "virus_count": 358
+}
