@@ -40,6 +40,10 @@
       "n": 4,
       "title": "An enhanced Enterovirus surveillance system allows identification and characterization of rare and emerging respiratory enteroviruses in Denmark, 2015-16"
     },
+    "Bisseux Maxime,B.M., Colombet Jonathan,C.J., Mirand Audrey,M.A., Archimbaud Christine,A.C., Bailly Jean-Luc,B.J.L., Debroas Didier,D.D. and Henquell Cecile,H.C.": {
+      "n": 8,
+      "title": "One-year surveillance of human enteric viruses in wastewater in Central France"
+    },
     "Boettcher,S., Adams,O., Eis-Huebinger,A.M., Panning,M., Prifert,C. and Diedrich,S.": {
       "n": 43,
       "title": "Enterovirus D68 detection in Germany 2015-2016"
@@ -666,7 +670,10 @@
   },
   "filters": [
     "country",
-    "region"
+    "region",
+    "clade",
+    "age_range1",
+    "authors"
   ],
   "geo": {
     "country": {
@@ -840,6 +847,6 @@
     "entropy"
   ],
   "title": "Phylodynamics of Enterovirus D68",
-  "updated": "27 Aug 2019",
-  "virus_count": 1564
+  "updated": "04 Sep 2019",
+  "virus_count": 1556
 }
