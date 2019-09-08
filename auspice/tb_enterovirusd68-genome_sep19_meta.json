@@ -584,7 +584,8 @@
   "filters": [
     "country",
     "region",
-    "clade_membership"
+    "clade_membership",
+    "source"
   ],
   "geo": {
     "country": {
