@@ -1,0 +1,268 @@
+{
+  "annotations": {
+    "6K_membrane_protein": {
+      "end": 9990,
+      "start": 9819,
+      "strand": 1
+    },
+    "E1_envelope_glycoprotein": {
+      "end": 11313,
+      "start": 9990,
+      "strand": 1
+    },
+    "E2_envelope_glycoprotein": {
+      "end": 9819,
+      "start": 8559,
+      "strand": 1
+    },
+    "E3_protein": {
+      "end": 8559,
+      "start": 8370,
+      "strand": 1
+    },
+    "RNA_polymerase_nsp4": {
+      "end": 7521,
+      "start": 5697,
+      "strand": 1
+    },
+    "capsid_protein": {
+      "end": 8370,
+      "start": 7587,
+      "strand": 1
+    },
+    "mRNA_capping_enzyme_nsp1": {
+      "end": 1638,
+      "start": 39,
+      "strand": 1
+    },
+    "non_structural_protein_nsp3": {
+      "end": 5697,
+      "start": 4020,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 11696,
+      "start": 0,
+      "strand": 1
+    },
+    "protease_nsp2": {
+      "end": 4020,
+      "start": 1638,
+      "strand": 1
+    }
+  },
+  "author_info": {
+    "Das,S., Halpin,R.A., Ransier,A., Mohan,M., Fedorova,N., Tsitrin,T., Stockwell,T., Amedeo,P., Appalla,L., Bishop,B., Edworthy,P., Gupta,N., Hoover,J., Katzel,D., Li,K., Schobel,S., Shrivastava,S., Thovarai,V., Wang,S., Auguste,A.J., Auguste,J., Wentworth,D.E. and Weaver,S.C.": {
+      "n": 67,
+      "title": "Direct Submission"
+    },
+    "Das,S., Halpin,R.A., Ransier,A., Mohan,M., Fedorova,N., Tsitrin,T., Stockwell,T., Amedeo,P., Appalla,L., Bishop,B., Edworthy,P., Gupta,N., Hoover,J., Katzel,D., Li,K., Schobel,S., Shrivastava,S., Thovarai,V., Wang,S., Auguste,A.J., Wentworth,D.E. and Weaver,S.C.": {
+      "n": 1,
+      "title": "Direct Submission"
+    },
+    "Das,S., Halpin,R.A., Ransier,A., Mohan,M., Fedorova,N., Tsitrin,T., Stockwell,T., Amedeo,P., Bishop,B., Edworthy,P., Gupta,N., Hoover,J., Katzel,D., Schobel,S., Shrivastava,S., Wang,S., Auguste,A.J., Wentworth,D.E. and Weaver,S.C.": {
+      "n": 7,
+      "title": "Direct Submission"
+    },
+    "Das,S.R., Halpin,R.A., Akopov,A., Fedorova,N., Puri,V., Stockwell,T., Amedeo,P., Bishop,B., Katzel,D., Schobel,S., Shrivastava,S., Heberlein-Larson,L., Stark,L.M. and Kramer,L.D.": {
+      "n": 89,
+      "title": "Direct Submission"
+    },
+    "Das,S.R., Halpin,R.A., Akopov,A., Fedorova,N., Puri,V., Stockwell,T., Amedeo,P., Bishop,B., Katzel,D., Schobel,S., Shrivastava,S., Maffei,J., Dupuis,A., Jones,S., Backenson,B., Smole,S., Ciota,A. and Kramer,L.D.": {
+      "n": 185,
+      "title": "Direct Submission"
+    },
+    "Das,S.R., Halpin,R.A., Shilts,M., Tan,Y., Akopov,A., Mueller,E., Fedorova,N., Puri,V., Stockwell,T., Amedeo,P., Katzel,D., Schobel,S., Shrivastava,S., Smole,S., Hennigan,S., Doan,K., Buzby,E., Hall,J., Sabina,B., Patel,P. and Kramer,L.D.": {
+      "n": 88,
+      "title": "Direct Submission"
+    },
+    "Guerbois,M., Forrester,N.L., Rossi,S.L., Hari,K., Lin,D. and Weaver,S.C.": {
+      "n": 1,
+      "title": "Direct Submission"
+    },
+    "Guerbois,M., Forrester,N.L., Rossi,S.L., Lin,D., Hari,K. and Weaver,S.C.": {
+      "n": 1,
+      "title": "Direct Submission"
+    },
+    "Molaei,G., Armstrong,P.M., Graham,A.C., Kramer,L.D. and Andreadis,T.G.": {
+      "n": 2,
+      "title": "Insights into the recent emergence and expansion of eastern equine encephalitis virus in a new focus in the Northern New England USA"
+    },
+    "Yu,G.Y., Wiley,M.R., Kugelman,J.R., Ladner,J.T., Beitzel,B.F., Eccleston,L.T., Morazzani,E.M., Glass,P.J. and Palacios,G.F.": {
+      "n": 1,
+      "title": "Complete coding sequences of eastern equine encephalitis virus and venezuelan equine encephalitis virus strains isolated from human cases"
+    }
+  },
+  "color_options": {
+    "country": {
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "genbank-host": {
+      "key": "genbank-host",
+      "legendTitle": "genbank-host",
+      "menuItem": "genbank-host",
+      "type": "discrete"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "host": {
+      "key": "host",
+      "legendTitle": "host",
+      "menuItem": "host",
+      "type": "discrete"
+    },
+    "location": {
+      "key": "location",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [
+        [
+          "north_america",
+          "#DC2F24"
+        ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "location",
+    "geoResolution": "location"
+  },
+  "filters": [
+    "country",
+    "region",
+    "location",
+    "host"
+  ],
+  "geo": {
+    "country": {
+      "Dominican_Republic": {
+        "latitude": 18.50012,
+        "longitude": -69.98857
+      },
+      "Jamaica": {
+        "latitude": 18.16667,
+        "longitude": -77.25
+      },
+      "USA": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      }
+    },
+    "location": {
+      "Dominican_Republic": {
+        "latitude": 18.50012,
+        "longitude": -69.98857
+      },
+      "Jamaica": {
+        "latitude": 18.16667,
+        "longitude": -77.25
+      },
+      "USA": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "connecticut": {
+        "latitude": 41.6500201,
+        "longitude": -72.7342162
+      },
+      "delaware": {
+        "latitude": 38.6920451,
+        "longitude": -75.4013314
+      },
+      "florida": {
+        "latitude": 27.7567667,
+        "longitude": -81.4639834
+      },
+      "georgia": {
+        "latitude": 32.3293809,
+        "longitude": -83.1137365
+      },
+      "louisiana": {
+        "latitude": 30.8703881,
+        "longitude": -92.0071259
+      },
+      "maryland": {
+        "latitude": 39.5162234,
+        "longitude": -76.9382068
+      },
+      "massachusetts": {
+        "latitude": 42.3788774,
+        "longitude": -72.0323659
+      },
+      "michigan": {
+        "latitude": 43.6211955,
+        "longitude": -84.6824345
+      },
+      "mississippi": {
+        "latitude": 32.9715645,
+        "longitude": -89.7348496
+      },
+      "new_hampshire": {
+        "latitude": 43.4718339,
+        "longitude": -71.6182147
+      },
+      "new_jersey": {
+        "latitude": 40.0757384,
+        "longitude": -74.4041621
+      },
+      "new_york": {
+        "latitude": 40.7642499,
+        "longitude": -73.9545249
+      },
+      "rhode_island": {
+        "latitude": 41.722736,
+        "longitude": -71.584996
+      },
+      "texas": {
+        "latitude": 31.8160381,
+        "longitude": -99.5120985
+      },
+      "vermont": {
+        "latitude": 44.5990718,
+        "longitude": -72.5002607
+      },
+      "virginia": {
+        "latitude": 37.1232245,
+        "longitude": -78.492772
+      }
+    },
+    "region": {
+      "north_america": {
+        "latitude": 28.2367447,
+        "longitude": -97.738017
+      }
+    }
+  },
+  "maintainer": [
+    "Emma Hodcroft",
+    "https://neherlab.org/emma-hodcroft.html"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Phylodynamics of Eastern equine encephalitis virus",
+  "updated": "23 Sep 2019",
+  "virus_count": 440
+}
