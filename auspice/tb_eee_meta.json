@@ -94,16 +94,142 @@
     }
   },
   "color_options": {
+    "categorized_host": {
+      "color_map": [
+        [
+          "Mosq- Culiseta",
+          "#c61008"
+        ],
+        [
+          "Mosq- Anopheles",
+          "#d2171e"
+        ],
+        [
+          "Mosq- Aedes",
+          "#da1d2f"
+        ],
+        [
+          "Mosq- Culex",
+          "#e42340"
+        ],
+        [
+          "Mosq- Ochlerotatus",
+          "#ea3441"
+        ],
+        [
+          "Mosquito (no genus)",
+          "#ed5032"
+        ],
+        [
+          "Mosq- Psorophora",
+          "#f06b23"
+        ],
+        [
+          "Mosq- Coquillettidia",
+          "#f38d0e"
+        ],
+        [
+          "Camel",
+          "#ffe119"
+        ],
+        [
+          "Dog",
+          "#bfef45"
+        ],
+        [
+          "Deer",
+          "#3cb44b"
+        ],
+        [
+          "Human",
+          "#42d4f4"
+        ],
+        [
+          "Horse (domestic)",
+          "#2955f6"
+        ],
+        [
+          "Horse (wild)",
+          "#192d78"
+        ],
+        [
+          "Bird- Passeriformes",
+          "#7b03a0"
+        ],
+        [
+          "Bird- Accipitriformes",
+          "#9005ac"
+        ],
+        [
+          "Bird- Suliformes",
+          "#9f06b5"
+        ],
+        [
+          "Bird- Gruiformes",
+          "#b107c0"
+        ],
+        [
+          "Bird- Columbiformes",
+          "#c108ca"
+        ],
+        [
+          "Bird- Casuariiformes",
+          "#cf09d2"
+        ],
+        [
+          "Bird- Pelecaniformes",
+          "#e20add"
+        ],
+        [
+          "Bird- Galliformes",
+          "#f50ce9"
+        ]
+      ],
+      "key": "categorized_host",
+      "legendTitle": "categorized_host",
+      "menuItem": "categorized_host",
+      "type": "discrete"
+    },
     "country": {
       "key": "country",
       "legendTitle": "country",
       "menuItem": "country",
       "type": "discrete"
     },
-    "genbank_host": {
-      "key": "genbank_host",
-      "legendTitle": "genbank_host",
-      "menuItem": "genbank_host",
+    "general_host": {
+      "color_map": [
+        [
+          "mosquito",
+          "#d2171e"
+        ],
+        [
+          "camel",
+          "#ffe119"
+        ],
+        [
+          "dog",
+          "#bfef45"
+        ],
+        [
+          "deer",
+          "#3cb44b"
+        ],
+        [
+          "human",
+          "#42d4f4"
+        ],
+        [
+          "horse",
+          "#4363d8"
+        ],
+        [
+          "bird",
+          "#9f06b5"
+        ]
+      ],
+      "key": "general_host",
+      "legendTitle": "general_host",
+      "menuItem": "general_host",
       "type": "discrete"
     },
     "gt": {
@@ -124,6 +250,66 @@
       "menuItem": "location",
       "type": "discrete"
     },
+    "mosquito_focus_host": {
+      "color_map": [
+        [
+          "Mosq- Culiseta",
+          "#c61008"
+        ],
+        [
+          "Mosq- Anopheles",
+          "#d2171e"
+        ],
+        [
+          "Mosq- Aedes",
+          "#da1d2f"
+        ],
+        [
+          "Mosq- Culex",
+          "#e42340"
+        ],
+        [
+          "Mosq- Ochlerotatus",
+          "#ea3441"
+        ],
+        [
+          "Mosquito (no genus)",
+          "#ed5032"
+        ],
+        [
+          "Mosq- Psorophora",
+          "#f06b23"
+        ],
+        [
+          "Mosq- Coquillettidia",
+          "#f38d0e"
+        ],
+        [
+          "Artiodactyla",
+          "#ffe119"
+        ],
+        [
+          "Carnivora",
+          "#bfef45"
+        ],
+        [
+          "Human",
+          "#42d4f4"
+        ],
+        [
+          "Perissodactyla",
+          "#4363d8"
+        ],
+        [
+          "bird",
+          "#9f06b5"
+        ]
+      ],
+      "key": "mosquito_focus_host",
+      "legendTitle": "mosquito_focus_host",
+      "menuItem": "mosquito_focus_host",
+      "type": "discrete"
+    },
     "num_date": {
       "key": "num_date",
       "legendTitle": "Sampling date",
@@ -131,12 +317,6 @@
       "type": "continuous"
     },
     "region": {
-      "color_map": [
-        [
-          "north_america",
-          "#DC2F24"
-        ]
-      ],
       "key": "region",
       "legendTitle": "region",
       "menuItem": "region",
@@ -151,7 +331,9 @@
     "country",
     "region",
     "location",
-    "host"
+    "host",
+    "general_host",
+    "categorized_host"
   ],
   "geo": {
     "country": {
