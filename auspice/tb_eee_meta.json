@@ -100,10 +100,10 @@
       "menuItem": "country",
       "type": "discrete"
     },
-    "genbank-host": {
-      "key": "genbank-host",
-      "legendTitle": "genbank-host",
-      "menuItem": "genbank-host",
+    "genbank_host": {
+      "key": "genbank_host",
+      "legendTitle": "genbank_host",
+      "menuItem": "genbank_host",
       "type": "discrete"
     },
     "gt": {
