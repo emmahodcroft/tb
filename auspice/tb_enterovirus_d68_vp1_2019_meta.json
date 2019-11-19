@@ -292,6 +292,10 @@
       "n": 39,
       "title": "Genetic Analysis of Enterovirus D68 strains from a North American outbreak"
     },
+    "Midgley et al.": {
+      "n": 20,
+      "title": "Emergence of a new B3 sub-clade of enterovirus D68 in Denmark, The Netherlands and Sweden in autumn 2019"
+    },
     "Midgley,S.E., Christiansen,C.B., Poulsen,M.W., Hansen,C.H. and Fischer,T.K.": {
       "n": 16,
       "title": "Emergence of enterovirus D68 in Denmark, June 2014 to February 2015"
@@ -396,10 +400,6 @@
       "n": 1,
       "title": "Direct Submission"
     },
-    "Pham,N.T.K.": {
-      "n": 1,
-      "title": "A 3 month child of acute gastroenteritis with enterovirus D68 detected from stool specimen"
-    },
     "Piralla,A., Girello,A., Grignani,M., Gozalo-Marguello,M., Marchi,A., Marseglia,G. and Baldanti,F.": {
       "n": 21,
       "title": "Phylogenetic characterization of enterovirus 68 strains in patients with respiratory syndromes in Italy"
@@ -500,10 +500,6 @@
       "n": 1,
       "title": "Genome sequence of enterovirus d68 from st. Louis, missouri, USA"
     },
-    "XX": {
-      "n": 20,
-      "title": "XX"
-    },
     "Xiang,Z. and Wang,J.": {
       "n": 7,
       "title": "Clades of enterovirus D68 infection, China, 2006-2014"
@@ -595,6 +591,10 @@
         [
           "KEKANDVTHNIT",
           "#f58231"
+        ],
+        [
+          "KERASDVTHNIT",
+          "#42d4f4"
         ],
         [
           "KERASDVTHNIN",
@@ -1057,5 +1057,5 @@
   ],
   "title": "Phylodynamics of Enterovirus D68",
   "updated": "19 Nov 2019",
-  "virus_count": 1668
+  "virus_count": 1661
 }
