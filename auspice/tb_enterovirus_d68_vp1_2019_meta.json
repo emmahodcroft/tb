@@ -32,6 +32,10 @@
       "n": 35,
       "title": "Emergence of enterovirus D68 clade D1, France, August to November 2018"
     },
+    "Bal,A., Schuffenecker,I., Casalegno,J.-S., Valette,M., Armand,N., Bellia Dhondt,P., Escuret,V. and Lina,B.": {
+      "n": 4,
+      "title": "Enterovirus 68 outbreak in a nursing home, France, 2014"
+    },
     "Barnadas,C., Midgley,S.E., Skov,M.N., Jensen,L., Poulsen,M.W. and Fischer,T.K.": {
       "n": 4,
       "title": "An enhanced Enterovirus surveillance system allows identification and characterization of rare and emerging respiratory enteroviruses in Denmark, 2015-16"
@@ -497,7 +501,7 @@
       "title": "Genome sequence of enterovirus d68 from st. Louis, missouri, USA"
     },
     "XX": {
-      "n": 12,
+      "n": 20,
       "title": "XX"
     },
     "Xiang,Z. and Wang,J.": {
@@ -587,7 +591,64 @@
       "type": "discrete"
     },
     "CTERM": {
-      "color_map": [],
+      "color_map": [
+        [
+          "KEKANDVTHNIT",
+          "#f58231"
+        ],
+        [
+          "KERASDVTHNIN",
+          "#f032e6"
+        ],
+        [
+          "KERANNVTHNIT",
+          "#ffe119"
+        ],
+        [
+          "KDRANDVTHNIT",
+          "#e6194B"
+        ],
+        [
+          "KKRANDVTHNIT",
+          "#bfef45"
+        ],
+        [
+          "KERANDVTHNIT",
+          "#3cb44b"
+        ],
+        [
+          "RDRANDVTHNIT",
+          "#911eb4"
+        ],
+        [
+          "RERANDVTHNIT",
+          "#4363d8"
+        ],
+        [
+          "KERANEITHDLN",
+          "#000075"
+        ],
+        [
+          "KERANEITHDIN",
+          "#ffd8b1"
+        ],
+        [
+          "KERANEVTHDIN",
+          "#469990"
+        ],
+        [
+          "RERANEVTHDIT",
+          "#9A6324"
+        ],
+        [
+          "many x",
+          "#6d6c6c"
+        ],
+        [
+          "other",
+          "#a9a9a9"
+        ]
+      ],
       "key": "CTERM",
       "legendTitle": "Epitope at C terminus",
       "menuItem": "Epitope at C terminus",
@@ -595,6 +656,58 @@
     },
     "DE": {
       "color_map": [
+        [
+          "NGSSNSTYM",
+          "#6d6c6c"
+        ],
+        [
+          "NGSSNNTYM",
+          "#42d4f4"
+        ],
+        [
+          "NGSSSNTYM",
+          "#f032e6"
+        ],
+        [
+          "NDSSNNTYM",
+          "#ffe119"
+        ],
+        [
+          "NGSSNNTYV",
+          "#e6194B"
+        ],
+        [
+          "NGSGNNTYV",
+          "#3cb44b"
+        ],
+        [
+          "NGSSNNSYV",
+          "#911eb4"
+        ],
+        [
+          "NGSNNNTYV",
+          "#4363d8"
+        ],
+        [
+          "NGSNNNAYV",
+          "#000075"
+        ],
+        [
+          "-GSSNSTYM",
+          "#ffd8b1"
+        ],
+        [
+          "-GSNNSTYM",
+          "#469990"
+        ],
+        [
+          "-SSSNSTYT",
+          "#9A6324"
+        ],
+        [
+          "-SSSNSTYA",
+          "#f58231"
+        ],
         [
           "other",
           "#a9a9a9"
@@ -943,6 +1056,6 @@
     "entropy"
   ],
   "title": "Phylodynamics of Enterovirus D68",
-  "updated": "08 Nov 2019",
-  "virus_count": 1663
+  "updated": "19 Nov 2019",
+  "virus_count": 1668
 }
